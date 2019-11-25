@@ -1,0 +1,18 @@
+# Qsampler - A LinuxSampler Qt GUI Interface
+# Version: 0.6.0
+#
+# File: phasecorrelationandcausation.lscp
+# Date: Nov 25 2019 08:13:02
+#
+
+RESET
+
+# MIDI instrument map 0 - Chromatic
+ADD MIDI_INSTRUMENT_MAP 'Chromatic'
+
+# MIDI instrument map 1 - Drum Kits
+ADD MIDI_INSTRUMENT_MAP 'Drum Kits'
+
+# Global volume level
+SET VOLUME 0.35
+

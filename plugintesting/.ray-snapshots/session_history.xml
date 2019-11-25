@@ -1,0 +1,170 @@
+<SNAPSHOTS>
+ <Snapshot ref="2019_11_25_0_37_56" name="" VERSION="0.8.0" rewind_snapshot="" session_name="plugintesting">
+  <client executable="ray-jackpatch" icon="curve-connector" client_id="patch" name="JACK Connexions">
+   <file path="plugintesting.patch.xml"/>
+  </client>
+  <client executable="non-mixer" icon="non-mixer" client_id="mixer" name="Non-Mixer">
+   <file path="plugintesting.mixer"/>
+  </client>
+  <client executable="ray-proxy" icon="zita-lrx" label="zita-lrx" client_id="z_lrx" name="Ray Proxy">
+   <file path="plugintesting.z_lrx"/>
+  </client>
+  <client executable="ray-proxy" icon="qsampler" label="Qsampler" client_id="qsampler" name="Ray Proxy">
+   <file path="plugintesting.qsampler"/>
+  </client>
+  <client executable="patchage" icon="patchage" client_id="patchage" name="patchage"/>
+  <client executable="qsynth" icon="qsynth" client_id="qsynth" name="qsynth"/>
+  <client executable="ray-proxy" icon="h2-icon" label="Hydrogen" client_id="hydrogen" name="Ray Proxy">
+   <file path="plugintesting.hydrogen"/>
+  </client>
+ </Snapshot>
+ <Snapshot ref="2019_11_25_0_41_21" name="" VERSION="0.8.0" rewind_snapshot="" session_name="plugintesting">
+  <client executable="ray-jackpatch" icon="curve-connector" client_id="patch" name="JACK Connexions">
+   <file path="plugintesting.patch.xml"/>
+  </client>
+  <client executable="non-mixer" icon="non-mixer" client_id="mixer" name="Non-Mixer">
+   <file path="plugintesting.mixer"/>
+  </client>
+  <client executable="ray-proxy" icon="zita-lrx" label="zita-lrx" client_id="z_lrx" name="Ray Proxy">
+   <file path="plugintesting.z_lrx"/>
+  </client>
+  <client executable="ray-proxy" icon="qsampler" label="Qsampler" client_id="qsampler" name="Ray Proxy">
+   <file path="plugintesting.qsampler"/>
+  </client>
+  <client executable="patchage" icon="patchage" client_id="patchage" name="patchage"/>
+  <client executable="qsynth" icon="qsynth" client_id="qsynth" name="qsynth"/>
+  <client executable="ray-proxy" icon="h2-icon" label="Hydrogen" client_id="hydrogen" name="Ray Proxy">
+   <file path="plugintesting.hydrogen"/>
+  </client>
+ </Snapshot>
+ <Snapshot ref="2019_11_25_1_0_5" name="" VERSION="0.8.0" rewind_snapshot="" session_name="plugintesting">
+  <client executable="ray-jackpatch" icon="curve-connector" client_id="patch" name="JACK Connexions">
+   <file path="plugintesting.patch.xml"/>
+  </client>
+  <client executable="non-mixer" icon="non-mixer" client_id="mixer" name="Non-Mixer">
+   <file path="plugintesting.mixer"/>
+  </client>
+  <client executable="ray-proxy" icon="zita-lrx" label="zita-lrx" client_id="z_lrx" name="Ray Proxy">
+   <file path="plugintesting.z_lrx"/>
+  </client>
+  <client executable="ray-proxy" icon="qsampler" label="Qsampler" client_id="qsampler" name="Ray Proxy">
+   <file path="plugintesting.qsampler"/>
+  </client>
+  <client executable="patchage" icon="patchage" client_id="patchage" name="patchage"/>
+  <client executable="qsynth" icon="qsynth" client_id="qsynth" name="qsynth"/>
+  <client executable="ray-proxy" icon="h2-icon" label="Hydrogen" client_id="hydrogen" name="Ray Proxy">
+   <file path="plugintesting.hydrogen"/>
+  </client>
+  <client executable="qmidiarp" icon="qmidiarp" client_id="qmidiarp" name="qmidiarp"/>
+  <client executable="ray-proxy" icon="calf" label="Calf JACK Host" client_id="calf" name="Ray Proxy">
+   <file path="plugintesting.calf"/>
+  </client>
+  <client executable="ray-proxy" icon="jkmeter" label="jkmeter" client_id="jkmeter" name="Ray Proxy">
+   <file path="plugintesting.jkmeter"/>
+  </client>
+ </Snapshot>
+ <Snapshot ref="2019_11_25_1_2_14" name="" VERSION="0.8.0" rewind_snapshot="" session_name="plugintesting">
+  <client executable="ray-jackpatch" icon="curve-connector" client_id="patch" name="JACK Connexions">
+   <file path="plugintesting.patch.xml"/>
+  </client>
+  <client executable="non-mixer" icon="non-mixer" client_id="mixer" name="Non-Mixer">
+   <file path="plugintesting.mixer"/>
+  </client>
+  <client executable="ray-proxy" icon="zita-lrx" label="zita-lrx" client_id="z_lrx" name="Ray Proxy">
+   <file path="plugintesting.z_lrx"/>
+  </client>
+  <client executable="ray-proxy" icon="qsampler" label="Qsampler" client_id="qsampler" name="Ray Proxy">
+   <file path="plugintesting.qsampler"/>
+  </client>
+  <client executable="patchage" icon="patchage" client_id="patchage" name="patchage"/>
+  <client executable="qsynth" icon="qsynth" client_id="qsynth" name="qsynth"/>
+  <client executable="ray-proxy" icon="h2-icon" label="Hydrogen" client_id="hydrogen" name="Ray Proxy">
+   <file path="plugintesting.hydrogen"/>
+  </client>
+  <client executable="qmidiarp" icon="qmidiarp" client_id="qmidiarp" name="qmidiarp"/>
+  <client executable="ray-proxy" icon="calf" label="Calf JACK Host" client_id="calf" name="Ray Proxy">
+   <file path="plugintesting.calf"/>
+  </client>
+  <client executable="ray-proxy" icon="jkmeter" label="jkmeter" client_id="jkmeter" name="Ray Proxy">
+   <file path="plugintesting.jkmeter"/>
+  </client>
+ </Snapshot>
+ <Snapshot ref="2019_11_25_2_38_36" name="" VERSION="0.8.0" rewind_snapshot="" session_name="plugintesting">
+  <client executable="ray-jackpatch" icon="curve-connector" client_id="patch" name="JACK Connexions">
+   <file path="plugintesting.patch.xml"/>
+  </client>
+  <client executable="non-mixer" icon="non-mixer" client_id="mixer" name="Non-Mixer">
+   <file path="plugintesting.mixer"/>
+  </client>
+  <client executable="ray-proxy" icon="zita-lrx" label="zita-lrx" client_id="z_lrx" name="Ray Proxy">
+   <file path="plugintesting.z_lrx"/>
+  </client>
+  <client executable="ray-proxy" icon="qsampler" label="Qsampler" client_id="qsampler" name="Ray Proxy">
+   <file path="plugintesting.qsampler"/>
+  </client>
+  <client executable="patchage" icon="patchage" client_id="patchage" name="patchage"/>
+  <client executable="qsynth" icon="qsynth" client_id="qsynth" name="qsynth"/>
+  <client executable="ray-proxy" icon="h2-icon" label="Hydrogen" client_id="hydrogen" name="Ray Proxy">
+   <file path="plugintesting.hydrogen"/>
+  </client>
+  <client executable="qmidiarp" icon="qmidiarp" client_id="qmidiarp" name="qmidiarp"/>
+  <client executable="ray-proxy" icon="calf" label="Calf JACK Host" client_id="calf" name="Ray Proxy">
+   <file path="plugintesting.calf"/>
+  </client>
+  <client executable="ray-proxy" icon="jkmeter" label="jkmeter" client_id="jkmeter" name="Ray Proxy">
+   <file path="plugintesting.jkmeter"/>
+  </client>
+ </Snapshot>
+ <Snapshot ref="2019_11_25_2_40_47" name="" VERSION="0.8.0" rewind_snapshot="" session_name="plugintesting">
+  <client executable="ray-jackpatch" icon="curve-connector" client_id="patch" name="JACK Connexions">
+   <file path="plugintesting.patch.xml"/>
+  </client>
+  <client executable="non-mixer" icon="non-mixer" client_id="mixer" name="Non-Mixer">
+   <file path="plugintesting.mixer"/>
+  </client>
+  <client executable="ray-proxy" icon="zita-lrx" label="zita-lrx" client_id="z_lrx" name="Ray Proxy">
+   <file path="plugintesting.z_lrx"/>
+  </client>
+  <client executable="ray-proxy" icon="qsampler" label="Qsampler" client_id="qsampler" name="Ray Proxy">
+   <file path="plugintesting.qsampler"/>
+  </client>
+  <client executable="patchage" icon="patchage" client_id="patchage" name="patchage"/>
+  <client executable="qsynth" icon="qsynth" client_id="qsynth" name="qsynth"/>
+  <client executable="ray-proxy" icon="h2-icon" label="Hydrogen" client_id="hydrogen" name="Ray Proxy">
+   <file path="plugintesting.hydrogen"/>
+  </client>
+  <client executable="qmidiarp" icon="qmidiarp" client_id="qmidiarp" name="qmidiarp"/>
+  <client executable="ray-proxy" icon="calf" label="Calf JACK Host" client_id="calf" name="Ray Proxy">
+   <file path="plugintesting.calf"/>
+  </client>
+  <client executable="ray-proxy" icon="jkmeter" label="jkmeter" client_id="jkmeter" name="Ray Proxy">
+   <file path="plugintesting.jkmeter"/>
+  </client>
+ </Snapshot>
+ <Snapshot ref="2019_11_25_2_41_2" name="" VERSION="0.8.0" rewind_snapshot="" session_name="plugintesting">
+  <client executable="ray-jackpatch" icon="curve-connector" client_id="patch" name="JACK Connexions">
+   <file path="plugintesting.patch.xml"/>
+  </client>
+  <client executable="non-mixer" icon="non-mixer" client_id="mixer" name="Non-Mixer">
+   <file path="plugintesting.mixer"/>
+  </client>
+  <client executable="ray-proxy" icon="zita-lrx" label="zita-lrx" client_id="z_lrx" name="Ray Proxy">
+   <file path="plugintesting.z_lrx"/>
+  </client>
+  <client executable="ray-proxy" icon="qsampler" label="Qsampler" client_id="qsampler" name="Ray Proxy">
+   <file path="plugintesting.qsampler"/>
+  </client>
+  <client executable="patchage" icon="patchage" client_id="patchage" name="patchage"/>
+  <client executable="qsynth" icon="qsynth" client_id="qsynth" name="qsynth"/>
+  <client executable="ray-proxy" icon="h2-icon" label="Hydrogen" client_id="hydrogen" name="Ray Proxy">
+   <file path="plugintesting.hydrogen"/>
+  </client>
+  <client executable="qmidiarp" icon="qmidiarp" client_id="qmidiarp" name="qmidiarp"/>
+  <client executable="ray-proxy" icon="calf" label="Calf JACK Host" client_id="calf" name="Ray Proxy">
+   <file path="plugintesting.calf"/>
+  </client>
+  <client executable="ray-proxy" icon="jkmeter" label="jkmeter" client_id="jkmeter" name="Ray Proxy">
+   <file path="plugintesting.jkmeter"/>
+  </client>
+ </Snapshot>
+</SNAPSHOTS>

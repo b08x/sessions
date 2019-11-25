@@ -1,0 +1,81 @@
+<RAY-JACKPATCH>
+ <connection to="Non-Mixer (xovercompress):high/in-1" from="zita-lrx:out-L.high"/>
+ <connection to="Non-Mixer (xovercompress):high/in-2" from="zita-lrx:out-R.high"/>
+ <connection to="Non-Mixer (xovercompress):low/in-1" from="zita-lrx:out-L.low"/>
+ <connection to="Non-Mixer (xovercompress):low/in-2" from="zita-lrx:out-R.low"/>
+ <connection to="Non-Mixer (xovercompress):mid/in-1" from="zita-lrx:out-L.mid"/>
+ <connection to="Non-Mixer (xovercompress):sub/in-1" from="zita-lrx:out-L.sub"/>
+ <connection to="Non-Mixer (xovercompress):mid/in-2" from="zita-lrx:out-R.mid"/>
+ <connection to="Non-Mixer (xovercompress):sub/in-2" from="zita-lrx:out-R.sub"/>
+ <connection to="zita-lrx:inp-L" from="Roomy:out_left"/>
+ <connection to="zita-lrx:inp-R" from="Roomy:out_right"/>
+ <connection to="Calf Multiband Limiter:in_l" from="Non-Mixer (xovercompress):mid/out-1"/>
+ <connection to="Calf Multiband Limiter:in_l" from="Non-Mixer (xovercompress):low/out-1"/>
+ <connection to="Calf Multiband Limiter:in_l" from="Non-Mixer (xovercompress):high/out-1"/>
+ <connection to="Calf Multiband Limiter:in_l" from="Non-Mixer (xovercompress):sub/out-1"/>
+ <connection to="Calf Multiband Limiter:in_r" from="Non-Mixer (xovercompress):sub/out-2"/>
+ <connection to="Calf Multiband Limiter:in_r" from="Non-Mixer (xovercompress):mid/out-2"/>
+ <connection to="Calf Multiband Limiter:in_r" from="Non-Mixer (xovercompress):high/out-2"/>
+ <connection to="Calf Multiband Limiter:in_r" from="Non-Mixer (xovercompress):low/out-2"/>
+ <connection to="Calf Equalizer 12 Band:in_l" from="Calf Multiband Limiter:out_l"/>
+ <connection to="Calf Equalizer 12 Band:in_r" from="Calf Multiband Limiter:out_r"/>
+ <connection to="Non-Mixer/master:in-1" from="Calf Equalizer 12 Band:out_l"/>
+ <connection to="Non-Mixer/master:in-2" from="Calf Equalizer 12 Band:out_r"/>
+ <connection to="system:playback_1" from="Non-Mixer/master:out-1"/>
+ <connection to="system:playback_2" from="Non-Mixer/master:out-2"/>
+ <connection to="system:playback_4" from="Non-Mixer/master:out-1"/>
+ <connection to="Roomy:in_left" from="ZamHeadX2:lv2_audio_out_1"/>
+ <connection to="Roomy:in_right" from="ZamHeadX2:lv2_audio_out_2"/>
+ <connection to="Non-Mixer/helm:in-1" from="Helm:lv2_audio_out_1"/>
+ <connection to="Non-Mixer/helm:in-2" from="Helm:lv2_audio_out_2"/>
+ <connection to="Non-Mixer/qsynth:in-1" from="qsynth:left"/>
+ <connection to="Non-Mixer/qsynth:in-2" from="qsynth:right"/>
+ <connection to="Non-Mixer/fender_finger:in-1" from="LinuxSampler:0"/>
+ <connection to="Non-Mixer/strings_combo:in-1" from="LinuxSampler:1"/>
+ <connection to="Non-Mixer (percs):layered_beats/in-1" from="LinuxSampler:2"/>
+ <connection to="Non-Mixer (percs):sf3007/in-1" from="LinuxSampler:3"/>
+ <connection to="Non-Mixer/hydrogen:in-1" from="Hydrogen:out_L"/>
+ <connection to="Non-Mixer/hydrogen:in-2" from="Hydrogen:out_R"/>
+ <connection to="Non-Mixer/fabla:in-1" from="Fabla:left"/>
+ <connection to="Non-Mixer/fabla:in-2" from="Fabla:right"/>
+ <connection to="Non-Mixer/master:in-1" from="Calf Studio Gear:Equalizer 12 Band Out #1"/>
+ <connection to="Non-Mixer/master:in-2" from="Calf Studio Gear:Equalizer 12 Band Out #2"/>
+ <connection to="Calf Studio Gear:Equalizer 12 Band In #1" from="Calf Studio Gear:Multiband Limiter Out #1"/>
+ <connection to="Calf Studio Gear:Equalizer 12 Band In #2" from="Calf Studio Gear:Multiband Limiter Out #2"/>
+ <connection to="Calf Studio Gear:Multiband Limiter In #1" from="Non-Mixer (xovercompress):mid/out-1"/>
+ <connection to="Calf Studio Gear:Multiband Limiter In #1" from="Non-Mixer (xovercompress):low/out-1"/>
+ <connection to="Calf Studio Gear:Multiband Limiter In #1" from="Non-Mixer (xovercompress):high/out-1"/>
+ <connection to="Calf Studio Gear:Multiband Limiter In #1" from="Non-Mixer (xovercompress):sub/out-1"/>
+ <connection to="Calf Studio Gear:Multiband Limiter In #2" from="Non-Mixer (xovercompress):sub/out-2"/>
+ <connection to="Calf Studio Gear:Multiband Limiter In #2" from="Non-Mixer (xovercompress):mid/out-2"/>
+ <connection to="Calf Studio Gear:Multiband Limiter In #2" from="Non-Mixer (xovercompress):high/out-2"/>
+ <connection to="Calf Studio Gear:Multiband Limiter In #2" from="Non-Mixer (xovercompress):low/out-2"/>
+ <connection to="qmidiarp:in" from="jack-keyboard:midi_out"/>
+ <connection to="jkmeter:in-1" from="Non-Mixer/master:aux-A/out-1"/>
+ <connection to="jkmeter:in-2" from="Non-Mixer/master:aux-A/out-2"/>
+ <connection to="master_audio:in_1" from="Non-Mixer/master:out-1"/>
+ <connection to="master_audio:in_2" from="Non-Mixer/master:out-2"/>
+ <connection to="Non-Mixer/ethnic:in-1" from="LinuxSampler:4"/>
+ <connection to="Calf Studio Gear:Analyzer In #1" from="Calf Studio Gear:Multiband Limiter Out #1"/>
+ <connection to="Calf Studio Gear:Analyzer In #2" from="Calf Studio Gear:Multiband Limiter Out #2"/>
+ <connection to="LinuxSampler:midi_in_0" from="jack-keyboard:midi_out"/>
+ <connection to="Matrix Mixer 8x8:in3" from="Non-Mixer/hydrogen:out-1"/>
+ <connection to="LinuxSampler:midi_in_0" from="qmidiarp:out 1"/>
+ <connection to="Calf Envelope Filter:in_l" from="Matrix Mixer 8x8:out3"/>
+ <connection to="Calf Envelope Filter:in_r" from="Matrix Mixer 8x8:out4"/>
+ <connection to="Non-Mixer/ams_stereo01:in-1" from="Matrix Mixer 8x8:out1"/>
+ <connection to="Non-Mixer/ams_stereo01:in-2" from="Matrix Mixer 8x8:out2"/>
+ <connection to="Non-Mixer/ams_stereo01:in-3" from="Calf Envelope Filter:out_l"/>
+ <connection to="Non-Mixer/ams_stereo01:in-4" from="Calf Envelope Filter:out_r"/>
+ <connection to="Roomy:in_left" from="Non-Mixer/ams_stereo01:out-1"/>
+ <connection to="Roomy:in_right" from="Non-Mixer/ams_stereo01:out-2"/>
+ <connection to="ZamDynamicEQ:lv2_audio_in_1" from="Non-Mixer/ethnic:out-1"/>
+ <connection to="Matrix Mixer 8x8:in4" from="ZamDynamicEQ:lv2_audio_out_1"/>
+ <connection to="ZamDynamicEQ:lv2_sidechain_in" from="Non-Mixer/helm:out-1"/>
+ <connection to="the infamous octolo:INPUT" from="Non-Mixer (percs):layered_beats/out-1"/>
+ <connection to="C* Scape - Stereo delay + Filters:in" from="the infamous octolo:OUTPUT"/>
+ <connection to="Matrix Mixer 8x8:in1" from="C* Scape - Stereo delay + Filters:outl"/>
+ <connection to="Matrix Mixer 8x8:in2" from="C* Scape - Stereo delay + Filters:outr"/>
+ <connection to="the infamous octolo:INPUT" from="Non-Mixer/fender_finger:out-1"/>
+ <connection to="Hydrogen-midi:RX" from="jack-keyboard-01:midi_out"/>
+</RAY-JACKPATCH>

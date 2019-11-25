@@ -1,0 +1,90 @@
+<SNAPSHOTS>
+ <Snapshot rewind_snapshot="" VERSION="0.8.0" name="" ref="2019_11_19_5_19_34" session_name="number001">
+  <client executable="ray-jackpatch" icon="curve-connector" name="JACK Connexions" client_id="patch">
+   <file path="number001.patch.xml"/>
+  </client>
+  <client executable="patchage" icon="patchage" name="patchage" client_id="patchage"/>
+  <client executable="non-mixer" icon="non-mixer" name="Non-Mixer" client_id="mixer">
+   <file path="number001.mixer"/>
+  </client>
+  <client executable="jamin" icon="jamin" name="jamin" client_id="jamin"/>
+ </Snapshot>
+ <Snapshot rewind_snapshot="" VERSION="0.8.0" name="" ref="2019_11_19_8_18_51" session_name="number001">
+  <client executable="ray-jackpatch" icon="curve-connector" name="JACK Connexions" client_id="patch">
+   <file path="number001.patch.xml"/>
+  </client>
+  <client executable="patchage" icon="patchage" name="patchage" client_id="patchage"/>
+  <client executable="non-mixer" icon="non-mixer" name="Non-Mixer" client_id="mixer">
+   <file path="number001.mixer"/>
+  </client>
+  <client executable="jamin" icon="jamin" name="jamin" client_id="jamin"/>
+  <client executable="ray-proxy" icon="Helm" name="Ray Proxy" label="Helm" client_id="jalv_gtkmm">
+   <file path="number001.jalv_gtkmm"/>
+  </client>
+  <client executable="mixxx" icon="mixxx" name="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" icon="jconvolver" name="Ray Proxy" label="jconvolver_santa_elis" client_id="jconvolver">
+   <file path="number001.jconvolver"/>
+  </client>
+  <client executable="ray-proxy" icon="h2-icon" name="Ray Proxy" label="Hydrogen" client_id="hydrogen">
+   <file path="number001.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" icon="qsampler" name="Ray Proxy" label="Qsampler" client_id="qsampler">
+   <file path="number001.qsampler"/>
+  </client>
+  <client executable="ray-proxy" icon="zita-lrx" name="Ray Proxy" label="zita-lrx" client_id="z_lrx">
+   <file path="number001.z_lrx"/>
+  </client>
+ </Snapshot>
+ <Snapshot rewind_snapshot="" VERSION="0.8.0" name="" ref="2019_11_19_8_59_22" session_name="number001">
+  <client executable="ray-jackpatch" icon="curve-connector" name="JACK Connexions" client_id="patch">
+   <file path="number001.patch.xml"/>
+  </client>
+  <client executable="patchage" icon="patchage" name="patchage" client_id="patchage"/>
+  <client executable="non-mixer" icon="non-mixer" name="Non-Mixer" client_id="mixer">
+   <file path="number001.mixer"/>
+  </client>
+  <client executable="jamin" icon="jamin" name="jamin" client_id="jamin"/>
+  <client executable="ray-proxy" icon="Helm" name="Ray Proxy" label="Helm" client_id="jalv_gtkmm">
+   <file path="number001.jalv_gtkmm"/>
+  </client>
+  <client executable="mixxx" icon="mixxx" name="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" icon="jconvolver" name="Ray Proxy" label="jconvolver_santa_elis" client_id="jconvolver">
+   <file path="number001.jconvolver"/>
+  </client>
+  <client executable="ray-proxy" icon="h2-icon" name="Ray Proxy" label="Hydrogen" client_id="hydrogen">
+   <file path="number001.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" icon="qsampler" name="Ray Proxy" label="Qsampler" client_id="qsampler">
+   <file path="number001.qsampler"/>
+  </client>
+  <client executable="ray-proxy" icon="zita-lrx" name="Ray Proxy" label="zita-lrx" client_id="z_lrx">
+   <file path="number001.z_lrx"/>
+  </client>
+ </Snapshot>
+ <Snapshot rewind_snapshot="" VERSION="0.8.0" name="" ref="2019_11_19_8_59_41" session_name="number001">
+  <client executable="ray-jackpatch" icon="curve-connector" name="JACK Connexions" client_id="patch">
+   <file path="number001.patch.xml"/>
+  </client>
+  <client executable="patchage" icon="patchage" name="patchage" client_id="patchage"/>
+  <client executable="non-mixer" icon="non-mixer" name="Non-Mixer" client_id="mixer">
+   <file path="number001.mixer"/>
+  </client>
+  <client executable="jamin" icon="jamin" name="jamin" client_id="jamin"/>
+  <client executable="ray-proxy" icon="Helm" name="Ray Proxy" label="Helm" client_id="jalv_gtkmm">
+   <file path="number001.jalv_gtkmm"/>
+  </client>
+  <client executable="mixxx" icon="mixxx" name="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" icon="jconvolver" name="Ray Proxy" label="jconvolver_santa_elis" client_id="jconvolver">
+   <file path="number001.jconvolver"/>
+  </client>
+  <client executable="ray-proxy" icon="h2-icon" name="Ray Proxy" label="Hydrogen" client_id="hydrogen">
+   <file path="number001.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" icon="qsampler" name="Ray Proxy" label="Qsampler" client_id="qsampler">
+   <file path="number001.qsampler"/>
+  </client>
+  <client executable="ray-proxy" icon="zita-lrx" name="Ray Proxy" label="zita-lrx" client_id="z_lrx">
+   <file path="number001.z_lrx"/>
+  </client>
+ </Snapshot>
+</SNAPSHOTS>

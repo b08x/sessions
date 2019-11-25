@@ -1,0 +1,194 @@
+<RAY-JACKPATCH>
+ <connection to="Non-Mixer/looper01:in-1" from="sooperlooper:loop0_out_1"/>
+ <connection to="Non-Mixer/mixxx01:in-1" from="Mixxx:out_0"/>
+ <connection to="Non-Mixer/mixxx02:in-1" from="Mixxx:out_1"/>
+ <connection to="Non-Mixer/mixxx03:in-1" from="Mixxx:out_2"/>
+ <connection to="Non-Mixer/mixxx04:in-1" from="Mixxx:out_3"/>
+ <connection to="Non-Mixer (buses):stringbus/in-1" from="Non-Mixer (stringed):banjo/out-1"/>
+ <connection to="Non-Mixer/looperbus:in-1" from="Non-Mixer/looper01:out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-1" from="Non-Mixer (buses):stringbus/early reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-2" from="Non-Mixer (buses):stringbus/early reverb/out-2"/>
+ <connection to="Non-Mixer (reverb):early/in-3" from="Non-Mixer (buses):stringbus/early reverb/out-3"/>
+ <connection to="Non-Mixer (reverb):early/in-4" from="Non-Mixer (buses):stringbus/early reverb/out-4"/>
+ <connection to="Non-Mixer (reverb):early/in-1" from="Non-Mixer/mixxx01:early reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-2" from="Non-Mixer/mixxx01:early reverb/out-2"/>
+ <connection to="Non-Mixer (reverb):early/in-3" from="Non-Mixer/mixxx01:early reverb/out-3"/>
+ <connection to="Non-Mixer (reverb):early/in-4" from="Non-Mixer/mixxx01:early reverb/out-4"/>
+ <connection to="Non-Mixer (reverb):early/in-1" from="Non-Mixer/mixxx02:early reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-2" from="Non-Mixer/mixxx02:early reverb/out-2"/>
+ <connection to="Non-Mixer (reverb):early/in-3" from="Non-Mixer/mixxx02:early reverb/out-3"/>
+ <connection to="Non-Mixer (reverb):early/in-4" from="Non-Mixer/mixxx02:early reverb/out-4"/>
+ <connection to="Non-Mixer (reverb):early/in-1" from="Non-Mixer/mixxx03:early reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-2" from="Non-Mixer/mixxx03:early reverb/out-2"/>
+ <connection to="Non-Mixer (reverb):early/in-3" from="Non-Mixer/mixxx03:early reverb/out-3"/>
+ <connection to="Non-Mixer (reverb):early/in-4" from="Non-Mixer/mixxx03:early reverb/out-4"/>
+ <connection to="Non-Mixer (reverb):early/in-1" from="Non-Mixer/mixxx04:early reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-2" from="Non-Mixer/mixxx04:early reverb/out-2"/>
+ <connection to="Non-Mixer (reverb):early/in-3" from="Non-Mixer/mixxx04:early reverb/out-3"/>
+ <connection to="Non-Mixer (reverb):early/in-4" from="Non-Mixer/mixxx04:early reverb/out-4"/>
+ <connection to="Non-Mixer (reverb):late/in-1" from="Non-Mixer (buses):stringbus/late reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):late/in-1" from="Non-Mixer/mixxx01:late reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):late/in-1" from="Non-Mixer/mixxx02:late reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):late/in-1" from="Non-Mixer/mixxx03:late reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):late/in-1" from="Non-Mixer/mixxx04:late reverb/out-1"/>
+ <connection to="jconvolver:In.Tail" from="Non-Mixer (reverb):late/out-1"/>
+ <connection to="jconvolver:In.W" from="Non-Mixer (reverb):early/out-1"/>
+ <connection to="jconvolver:In.X" from="Non-Mixer (reverb):early/out-2"/>
+ <connection to="jconvolver:In.Y" from="Non-Mixer (reverb):early/out-3"/>
+ <connection to="jconvolver:In.Z" from="Non-Mixer (reverb):early/out-4"/>
+ <connection to="Non-Mixer (reverb):late/in-1" from="Non-Mixer/piano:late reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-1" from="Non-Mixer/piano:early reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-2" from="Non-Mixer/piano:early reverb/out-2"/>
+ <connection to="Non-Mixer (reverb):early/in-3" from="Non-Mixer/piano:early reverb/out-3"/>
+ <connection to="Non-Mixer (reverb):early/in-4" from="Non-Mixer/piano:early reverb/out-4"/>
+ <connection to="Non-Mixer (reverb):late/in-1" from="Non-Mixer (buses):percussionbus/late reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-1" from="Non-Mixer (buses):percussionbus/early reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-2" from="Non-Mixer (buses):percussionbus/early reverb/out-2"/>
+ <connection to="Non-Mixer (reverb):early/in-3" from="Non-Mixer (buses):percussionbus/early reverb/out-3"/>
+ <connection to="Non-Mixer (reverb):early/in-4" from="Non-Mixer (buses):percussionbus/early reverb/out-4"/>
+ <connection to="Non-Mixer/piano:in-1" from="LinuxSampler:0"/>
+ <connection to="Non-Mixer/master:in-3" from="jconvolver:Out.Y"/>
+ <connection to="Non-Mixer/master:in-4" from="jconvolver:Out.Z"/>
+ <connection to="Non-Mixer (loops):looper01/in-1" from="sooperlooper:loop0_out_1"/>
+ <connection to="Non-Mixer (reverb):late/in-1" from="Non-Mixer/helm:late reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-1" from="Non-Mixer/helm:early reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-2" from="Non-Mixer/helm:early reverb/out-2"/>
+ <connection to="Non-Mixer (reverb):early/in-3" from="Non-Mixer/helm:early reverb/out-3"/>
+ <connection to="Non-Mixer (reverb):early/in-4" from="Non-Mixer/helm:early reverb/out-4"/>
+ <connection to="Non-Mixer/helm:in-1" from="Helm:lv2_audio_out_1"/>
+ <connection to="Non-Mixer/helm:in-2" from="Helm:lv2_audio_out_2"/>
+ <connection to="Non-Mixer/master:in-3" from="Non-Mixer (buses):stringbus/out-3"/>
+ <connection to="Non-Mixer/master:in-4" from="Non-Mixer (buses):stringbus/out-4"/>
+ <connection to="Non-Mixer/master:in-3" from="Non-Mixer (buses):percussionbus/out-3"/>
+ <connection to="Non-Mixer/master:in-4" from="Non-Mixer (buses):percussionbus/out-4"/>
+ <connection to="Non-Mixer (buses):looperbus/in-1" from="Non-Mixer (loops):looper01/out-1"/>
+ <connection to="Non-Mixer (reverb):late/in-1" from="Non-Mixer (buses):looperbus/late reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-1" from="Non-Mixer (buses):looperbus/early reverb/out-1"/>
+ <connection to="Non-Mixer (reverb):early/in-2" from="Non-Mixer (buses):looperbus/early reverb/out-2"/>
+ <connection to="Non-Mixer (reverb):early/in-3" from="Non-Mixer (buses):looperbus/early reverb/out-3"/>
+ <connection to="Non-Mixer (reverb):early/in-4" from="Non-Mixer (buses):looperbus/early reverb/out-4"/>
+ <connection to="Non-Mixer/master:in-3" from="Non-Mixer (buses):looperbus/out-3"/>
+ <connection to="Non-Mixer/master:in-4" from="Non-Mixer (buses):looperbus/out-4"/>
+ <connection to="Non-Mixer (buses):stringbus/in-1" from="Non-Mixer (stringed):gitar/out-1"/>
+ <connection to="Helm:lv2_events_in" from="jack-keyboard:midi_out"/>
+ <connection to="Non-Mixer/realmaster:in-1" from="Non-Mixer (freqsplitter):sub/out-1"/>
+ <connection to="Non-Mixer/realmaster:in-2" from="Non-Mixer (freqsplitter):sub/out-2"/>
+ <connection to="Non-Mixer/realmaster:in-1" from="Non-Mixer (freqsplitter):low/out-1"/>
+ <connection to="Non-Mixer/realmaster:in-2" from="Non-Mixer (freqsplitter):low/out-2"/>
+ <connection to="Non-Mixer/realmaster:in-1" from="Non-Mixer (freqsplitter):mid/out-1"/>
+ <connection to="Non-Mixer/realmaster:in-2" from="Non-Mixer (freqsplitter):mid/out-2"/>
+ <connection to="Non-Mixer/realmaster:in-1" from="Non-Mixer (freqsplitter):high/out-1"/>
+ <connection to="Non-Mixer/realmaster:in-2" from="Non-Mixer (freqsplitter):high/out-2"/>
+ <connection to="headphones:playback_1" from="Non-Mixer/realmaster:out-1"/>
+ <connection to="headphones:playback_2" from="Non-Mixer/realmaster:out-2"/>
+ <connection to="Non-Mixer/master:in-3" from="Non-Mixer/mixxx01:out-3"/>
+ <connection to="Non-Mixer/master:in-3" from="Non-Mixer/mixxx02:out-3"/>
+ <connection to="Non-Mixer/master:in-3" from="Non-Mixer/mixxx03:out-3"/>
+ <connection to="Non-Mixer/master:in-3" from="Non-Mixer/helm:out-3"/>
+ <connection to="Non-Mixer/master:in-3" from="Non-Mixer/piano:out-3"/>
+ <connection to="Non-Mixer/master:in-4" from="Non-Mixer/mixxx01:out-4"/>
+ <connection to="Non-Mixer/master:in-4" from="Non-Mixer/mixxx02:out-4"/>
+ <connection to="Non-Mixer/master:in-4" from="Non-Mixer/mixxx03:out-4"/>
+ <connection to="Non-Mixer/master:in-3" from="Non-Mixer/mixxx04:out-3"/>
+ <connection to="Non-Mixer/master:in-4" from="Non-Mixer/mixxx04:out-4"/>
+ <connection to="Non-Mixer/master:in-4" from="Non-Mixer/helm:out-4"/>
+ <connection to="Non-Mixer/master:in-4" from="Non-Mixer/piano:out-4"/>
+ <connection to="LinuxSampler:midi_in_0" from="a2j:VMPK Output [133] (capture): VMPK Output"/>
+ <connection to="gx_head_amp:in_0" from="usbmic:capture_1"/>
+ <connection to="Helm:lv2_events_in" from="jack-keyboard-01:midi_out"/>
+ <connection to="Non-Mixer (stringed):banjo/in-1" from="gx_head_amp:out_0"/>
+ <connection to="jmeters:in-1" from="Non-Mixer (buses):stringbus/aux-A/out-1"/>
+ <connection to="jmeters-01:in-1" from="Non-Mixer (buses):percussionbus/aux-A/out-1"/>
+ <connection to="jmeters-02:in-1" from="Non-Mixer (buses):looperbus/aux-A/out-1"/>
+ <connection to="jmeters-03:in-4" from="Non-Mixer/mixxx04:aux-A/out-1"/>
+ <connection to="jmeters-03:in-3" from="Non-Mixer/mixxx03:aux-A/out-1"/>
+ <connection to="jmeters-03:in-2" from="Non-Mixer/mixxx02:aux-A/out-1"/>
+ <connection to="jmeters-03:in-1" from="Non-Mixer/mixxx01:aux-A/out-1"/>
+ <connection to="jmeters-04:in-1" from="Non-Mixer/helm:aux-A/out-1"/>
+ <connection to="jmeters-04:in-2" from="Non-Mixer/helm:aux-A/out-2"/>
+ <connection to="jmeters-05:in-1" from="Non-Mixer/piano:aux-A/out-1"/>
+ <connection to="jkmeter:in-1" from="Non-Mixer/master:aux-B/out-1"/>
+ <connection to="jkmeter:in-2" from="Non-Mixer/master:aux-B/out-2"/>
+ <connection to="jkmeter:in-3" from="Non-Mixer/master:aux-B/out-3"/>
+ <connection to="jkmeter:in-4" from="Non-Mixer/master:aux-B/out-4"/>
+ <connection to="system:playback_1" from="Non-Mixer/realmaster:out-1"/>
+ <connection to="system:playback_2" from="Non-Mixer/realmaster:out-2"/>
+ <connection to="system:playback_4" from="Non-Mixer/realmaster:out-1"/>
+ <connection to="Non-Mixer (freqsplitter):low/in-3" from="zita-lrx:out-R.low"/>
+ <connection to="Non-Mixer (freqsplitter):low/in-2" from="zita-lrx:out-L.low"/>
+ <connection to="Non-Mixer (freqsplitter):high/in-2" from="zita-lrx:out-L.high"/>
+ <connection to="Non-Mixer (freqsplitter):high/in-3" from="zita-lrx:out-R.high"/>
+ <connection to="Non-Mixer (freqsplitter):mid/in-2" from="zita-lrx:out-L.mid"/>
+ <connection to="Non-Mixer (freqsplitter):mid/in-3" from="zita-lrx:out-R.mid"/>
+ <connection to="Non-Mixer (freqsplitter):sub/in-2" from="zita-lrx:out-L.sub"/>
+ <connection to="Non-Mixer (freqsplitter):sub/in-3" from="zita-lrx:out-R.sub"/>
+ <connection to="SimpleScreenRecorder:in_1" from="Non-Mixer/realmaster:out-1"/>
+ <connection to="SimpleScreenRecorder:in_2" from="Non-Mixer/realmaster:out-2"/>
+ <connection to="LinuxSampler:midi_in_0" from="jack-keyboard:midi_out"/>
+ <connection to="x42-eq - Parametric Equalizer Stereo:inL" from="PulseAudio JACK Sink:front-left"/>
+ <connection to="x42-eq - Parametric Equalizer Stereo:inR" from="PulseAudio JACK Sink:front-right"/>
+ <connection to="Non-Mixer/amb_decode:in-1" from="Non-Mixer (buses):stringbus/out-1"/>
+ <connection to="Non-Mixer/amb_decode:in-1" from="jconvolver:Out.W"/>
+ <connection to="Non-Mixer/amb_decode:in-1" from="Non-Mixer (buses):percussionbus/out-1"/>
+ <connection to="Non-Mixer/amb_decode:in-1" from="Non-Mixer (buses):looperbus/out-1"/>
+ <connection to="Non-Mixer/amb_decode:in-1" from="Non-Mixer/mixxx01:out-1"/>
+ <connection to="Non-Mixer/amb_decode:in-1" from="Non-Mixer/mixxx02:out-1"/>
+ <connection to="Non-Mixer/amb_decode:in-1" from="Non-Mixer/mixxx03:out-1"/>
+ <connection to="Non-Mixer/amb_decode:in-1" from="Non-Mixer/mixxx04:out-1"/>
+ <connection to="Non-Mixer/amb_decode:in-1" from="Non-Mixer/helm:out-1"/>
+ <connection to="Non-Mixer/amb_decode:in-1" from="Non-Mixer/piano:out-1"/>
+ <connection to="Non-Mixer/amb_decode:in-2" from="Non-Mixer (buses):stringbus/out-2"/>
+ <connection to="Non-Mixer/amb_decode:in-2" from="jconvolver:Out.X"/>
+ <connection to="Non-Mixer/amb_decode:in-2" from="Non-Mixer (buses):percussionbus/out-2"/>
+ <connection to="Non-Mixer/amb_decode:in-2" from="Non-Mixer (buses):looperbus/out-2"/>
+ <connection to="Non-Mixer/amb_decode:in-2" from="Non-Mixer/mixxx01:out-2"/>
+ <connection to="Non-Mixer/amb_decode:in-2" from="Non-Mixer/mixxx02:out-2"/>
+ <connection to="Non-Mixer/amb_decode:in-2" from="Non-Mixer/mixxx03:out-2"/>
+ <connection to="Non-Mixer/amb_decode:in-2" from="Non-Mixer/mixxx04:out-2"/>
+ <connection to="Non-Mixer/amb_decode:in-2" from="Non-Mixer/helm:out-2"/>
+ <connection to="Non-Mixer/amb_decode:in-2" from="Non-Mixer/piano:out-2"/>
+ <connection to="Non-Mixer/amb_decode:in-3" from="Non-Mixer (buses):stringbus/out-3"/>
+ <connection to="Non-Mixer/amb_decode:in-3" from="jconvolver:Out.Y"/>
+ <connection to="Non-Mixer/amb_decode:in-3" from="Non-Mixer (buses):percussionbus/out-3"/>
+ <connection to="Non-Mixer/amb_decode:in-3" from="Non-Mixer (buses):looperbus/out-3"/>
+ <connection to="Non-Mixer/amb_decode:in-3" from="Non-Mixer/mixxx01:out-3"/>
+ <connection to="Non-Mixer/amb_decode:in-3" from="Non-Mixer/mixxx02:out-3"/>
+ <connection to="Non-Mixer/amb_decode:in-3" from="Non-Mixer/mixxx03:out-3"/>
+ <connection to="Non-Mixer/amb_decode:in-3" from="Non-Mixer/helm:out-3"/>
+ <connection to="Non-Mixer/amb_decode:in-3" from="Non-Mixer/piano:out-3"/>
+ <connection to="Non-Mixer/amb_decode:in-3" from="Non-Mixer/mixxx04:out-3"/>
+ <connection to="Non-Mixer/amb_decode:in-4" from="jconvolver:Out.Z"/>
+ <connection to="Non-Mixer/amb_decode:in-4" from="Non-Mixer (buses):stringbus/out-4"/>
+ <connection to="Non-Mixer/amb_decode:in-4" from="Non-Mixer (buses):percussionbus/out-4"/>
+ <connection to="Non-Mixer/amb_decode:in-4" from="Non-Mixer (buses):looperbus/out-4"/>
+ <connection to="Non-Mixer/amb_decode:in-4" from="Non-Mixer/mixxx01:out-4"/>
+ <connection to="Non-Mixer/amb_decode:in-4" from="Non-Mixer/mixxx02:out-4"/>
+ <connection to="Non-Mixer/amb_decode:in-4" from="Non-Mixer/mixxx03:out-4"/>
+ <connection to="Non-Mixer/amb_decode:in-4" from="Non-Mixer/mixxx04:out-4"/>
+ <connection to="Non-Mixer/amb_decode:in-4" from="Non-Mixer/helm:out-4"/>
+ <connection to="Non-Mixer/amb_decode:in-4" from="Non-Mixer/piano:out-4"/>
+ <connection to="Non-Mixer (buses):looperbus/in-1" from="Non-Mixer (loops):looper02/out-1"/>
+ <connection to="Non-Mixer (buses):looperbus/in-1" from="Non-Mixer (loops):looper03/out-1"/>
+ <connection to="Non-Mixer (buses):looperbus/in-1" from="Non-Mixer (loops):looper04/out-1"/>
+ <connection to="Non-Mixer (buses):stringbus/in-1" from="Non-Mixer (stringed):oud/out-1"/>
+ <connection to="Non-Mixer (buses):percussionbus/in-1" from="Non-Mixer (percussions):hip_hop_kit/out-1"/>
+ <connection to="Non-Mixer (stringed):oud/in-1" from="LinuxSampler:1"/>
+ <connection to="Non-Mixer (percussions):hip_hop_kit/in-1" from="LinuxSampler:2"/>
+ <connection to="Non-Mixer (loops):looper02/in-1" from="sooperlooper:loop1_out_1"/>
+ <connection to="sooperlooper:loop0_in_1" from="Non-Mixer (percussions):hip_hop_kit/aux-A/out-1"/>
+ <connection to="sooperlooper:loop1_in_1" from="Non-Mixer (stringed):oud/aux-A/out-1"/>
+ <connection to="gx_head_fx:in_0" from="gx_head_amp:out_0"/>
+ <connection to="system:playback_1" from="zita-mu1:mon_out1.L"/>
+ <connection to="system:playback_2" from="zita-mu1:mon_out1.R"/>
+ <connection to="system:playback_4" from="zita-mu1:mon_out1.L"/>
+ <connection to="headphones:playback_1" from="zita-mu1:mon_out2.L"/>
+ <connection to="headphones:playback_2" from="zita-mu1:mon_out2.R"/>
+ <connection to="system:playback_5" from="zita-mu1:mon_out2.L"/>
+ <connection to="system:playback_6" from="zita-mu1:mon_out2.R"/>
+ <connection to="jkmeter:in-1" from="Non-Mixer/amb_decode:aux-B/out-1"/>
+ <connection to="jkmeter:in-2" from="Non-Mixer/amb_decode:aux-B/out-2"/>
+ <connection to="jkmeter:in-3" from="Non-Mixer/amb_decode:aux-B/out-3"/>
+ <connection to="jkmeter:in-4" from="Non-Mixer/amb_decode:aux-B/out-4"/>
+ <connection to="zita-mu1:in_1.L" from="Non-Mixer/master:out-1"/>
+ <connection to="zita-mu1:in_1.R" from="Non-Mixer/master:out-2"/>
+</RAY-JACKPATCH>

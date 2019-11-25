@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE RAYSESSION>
+<RAYSESSION name="saveyourselfdone" VERSION="0.8.0">
+ <Clients>
+  <client id="patch" executable="ray-jackpatch" name="JACK Connexions" launched="1" icon="curve-connector"/>
+  <client id="mixer" executable="non-mixer" name="Non-Mixer" launched="1" icon="non-mixer"/>
+  <client id="z_lrx_4" executable="ray-proxy" name="Ray Proxy" launched="1" label="zita-lrx_4bandxover" icon="zita-lrx"/>
+  <client id="jalv_gtkmm" executable="ray-proxy" name="Ray Proxy" launched="1" label="Helm" icon="Helm"/>
+  <client id="guitarix" executable="ray-proxy" name="Ray Proxy" launched="1" label="Guitarix" icon="gx_head"/>
+  <client id="mixxx" executable="mixxx" name="mixxx" launched="1" icon="mixxx"/>
+  <client id="qsampler" executable="ray-proxy" name="Ray Proxy" launched="1" label="Qsampler" icon="qsampler"/>
+  <client id="patchage" executable="patchage" name="patchage" launched="1" icon="patchage"/>
+  <client id="jconvolver" executable="ray-proxy" name="Ray Proxy" launched="1" label="jconvolver_maeshow" icon="jconvolver"/>
+  <client id="x_fil4" executable="x42-fil4" name="x42-fil4" launched="1" icon="x42-fil4"/>
+  <client id="jkmeter_2" executable="ray-proxy" name="Ray Proxy" launched="1" label="jkmeter_amb" icon="jkmeter"/>
+ </Clients>
+ <RemovedClients>
+  <client id="z_lrx" executable="ray-proxy" name="Ray Proxy" label="zita-lrx" icon="zita-lrx"/>
+  <client id="z_lrx_2" executable="ray-proxy" name="Ray Proxy" label="zita-lrx" icon="zita-lrx"/>
+  <client id="z_lrx_3" executable="ray-proxy" name="Ray Proxy" icon="zita-lrx"/>
+  <client id="carla" executable="carla" name="Carla" icon="carla"/>
+  <client id="multi" executable="carla-jack-multi" name="Carla-Multi-Client" icon="carla-jack-multi"/>
+  <client id="hydrogen" executable="ray-proxy" name="Ray Proxy" label="Hydrogen" icon="h2-icon"/>
+  <client id="sooperloop" executable="sooperlooper_nsm" name="SooperLooper" unignored_extensions=" .wav" icon="sooperlooper"/>
+  <client id="jkmeter" executable="ray-proxy" name="Ray Proxy" label="jkmeter" icon="jkmeter"/>
+  <client id="calf" executable="ray-proxy" name="Ray Proxy" label="Calf JACK Host" icon="calf"/>
+ </RemovedClients>
+ <Windows/>
+</RAYSESSION>

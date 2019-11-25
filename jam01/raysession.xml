@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE RAYSESSION>
+<RAYSESSION name="jam01" VERSION="0.8.0">
+ <Clients>
+  <client name="JACK Connexions" executable="ray-jackpatch" id="patch" launched="1" icon="curve-connector"/>
+  <client name="qsynth" executable="qsynth" id="qsynth" launched="1" icon="qsynth"/>
+  <client name="Ray Proxy" label="Helm" executable="ray-proxy" id="jalv_gtkmm" launched="1" icon="Helm"/>
+  <client name="Ray Proxy" label="Qsampler" executable="ray-proxy" id="qsampler" launched="1" icon="qsampler"/>
+  <client name="Non-Mixer" executable="non-mixer" id="mixer" launched="1" icon="non-mixer"/>
+  <client name="Non-Sequencer" executable="non-sequencer" id="sequencer" launched="0" icon="non-sequencer"/>
+  <client name="jalv.select" executable="jalv.select" id="jalv_selec" launched="1" icon="jalv.select"/>
+  <client name="Ray Proxy" label="zita-lrx" executable="ray-proxy" id="z_lrx" launched="1" icon="zita-lrx"/>
+  <client name="mixxx" executable="mixxx" id="mixxx" launched="1" icon="mixxx"/>
+  <client name="Ray Proxy" label="Hydrogen" executable="ray-proxy" id="hydrogen" launched="1" icon="h2-icon"/>
+  <client name="Ray Proxy" label="Calf JACK Host" executable="ray-proxy" id="calf" launched="0" icon="calf"/>
+  <client name="qmidiarp" executable="qmidiarp" id="qmidiarp" launched="1" icon="qmidiarp"/>
+  <client name="patchage" executable="patchage" id="patchage" launched="1" icon="patchage"/>
+  <client name="zita-mu1" executable="zita-mu1" id="z_mu1" launched="1" icon="zita-mu1"/>
+ </Clients>
+ <RemovedClients/>
+ <Windows/>
+</RAYSESSION>

@@ -1,0 +1,121 @@
+<?xml version="1.1" encoding="utf-8"?>
+<rack><plugin type="limiter" instance-name="Limiter" input-index="13" output-index="11">
+<preset bank="0" program="0" plugin="limiter" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0" />
+  <param name="meter_inR" value="0" />
+  <param name="meter_outL" value="0" />
+  <param name="meter_outR" value="0" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="limit" value="0.473029" />
+  <param name="attack" value="5" />
+  <param name="release" value="83.1764" />
+  <param name="att" value="1" />
+  <param name="asc" value="1" />
+  <param name="asc_led" value="0" />
+  <param name="asc_coeff" value="0.5" />
+  <param name="oversampling" value="2" />
+  <param name="auto_level" value="1" />
+</preset>
+</plugin>
+<plugin type="sidechaincompressor" instance-name="Sidechain Compressor" input-index="17" output-index="15">
+<preset bank="0" program="0" plugin="sidechaincompressor" name="">
+  <param name="bypass" value="1" />
+  <param name="level_in" value="1" />
+  <param name="meter_in" value="0" />
+  <param name="meter_out" value="0" />
+  <param name="clip_in" value="0" />
+  <param name="clip_out" value="0" />
+  <param name="threshold" value="0.125" />
+  <param name="ratio" value="2" />
+  <param name="attack" value="20" />
+  <param name="release" value="250" />
+  <param name="makeup" value="1" />
+  <param name="knee" value="2.82843" />
+  <param name="detection" value="0" />
+  <param name="stereo_link" value="1" />
+  <param name="compression" value="1" />
+  <param name="sc_mode" value="0" />
+  <param name="f1_freq" value="250" />
+  <param name="f2_freq" value="4500" />
+  <param name="f1_level" value="1" />
+  <param name="f2_level" value="1" />
+  <param name="sc_listen" value="0" />
+  <param name="f1_active" value="0" />
+  <param name="f2_active" value="0" />
+  <param name="sc_route" value="0" />
+  <param name="sc_level" value="1" />
+  <param name="mix" value="1" />
+</preset>
+</plugin>
+<plugin type="filter" instance-name="Filter" input-index="21" output-index="17">
+<preset bank="0" program="0" plugin="filter" name="">
+  <param name="freq" value="649.348" />
+  <param name="res" value="1.15174" />
+  <param name="mode" value="11" />
+  <param name="inertia" value="20" />
+  <param name="bypass" value="1" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0" />
+  <param name="meter_inR" value="0" />
+  <param name="meter_outL" value="0" />
+  <param name="meter_outR" value="0" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+</preset>
+</plugin>
+<plugin type="bassenhancer" instance-name="Bass Enhancer" input-index="23" output-index="19">
+<preset bank="0" program="0" plugin="bassenhancer" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="amount" value="10.8528" />
+  <param name="meter_in" value="0" />
+  <param name="meter_out" value="0" />
+  <param name="clip_in" value="0" />
+  <param name="clip_out" value="0" />
+  <param name="drive" value="8.9752" />
+  <param name="blend" value="-0.0600004" />
+  <param name="meter_drive" value="0" />
+  <param name="freq" value="92.1677" />
+  <param name="listen" value="0" />
+  <param name="floor_active" value="0" />
+  <param name="floor" value="38.2611" />
+</preset>
+</plugin>
+<plugin type="saturator" instance-name="Saturator" input-index="25" output-index="21">
+<preset bank="0" program="0" plugin="saturator" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0" />
+  <param name="meter_inR" value="0" />
+  <param name="meter_outL" value="0" />
+  <param name="meter_outR" value="0" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="mix" value="1" />
+  <param name="drive" value="5.446" />
+  <param name="blend" value="0" />
+  <param name="lp_pre_freq" value="4791.11" />
+  <param name="hp_pre_freq" value="15.7784" />
+  <param name="lp_post_freq" value="20000" />
+  <param name="hp_post_freq" value="10" />
+  <param name="p_freq" value="341.216" />
+  <param name="p_level" value="0.135842" />
+  <param name="p_q" value="0.164437" />
+  <param name="pre" value="1" />
+  <param name="post" value="0" />
+</preset>
+</plugin>
+</rack>

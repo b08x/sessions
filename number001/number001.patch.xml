@@ -1,0 +1,73 @@
+<RAY-JACKPATCH>
+ <connection to="system:playback_1" from="jamin:a.master.out_L"/>
+ <connection to="system:playback_2" from="jamin:a.master.out_R"/>
+ <connection to="system:playback_4" from="jamin:a.master.out_L"/>
+ <connection to="headphones:playback_1" from="jamin:a.master.out_L"/>
+ <connection to="headphones:playback_2" from="jamin:a.master.out_R"/>
+ <connection to="jconvolver:In.X" from="Non-Mixer/early reverb:out-2"/>
+ <connection to="jconvolver:In.Y" from="Non-Mixer/early reverb:out-3"/>
+ <connection to="jconvolver:In.Z" from="Non-Mixer/early reverb:out-4"/>
+ <connection to="jconvolver:In.W" from="Non-Mixer/early reverb:out-1"/>
+ <connection to="jconvolver:In.Tail" from="Non-Mixer/late reverb:out-1"/>
+ <connection to="Non-Mixer/early reverb:in-1" from="Non-Mixer/helm:early reverb/out-1"/>
+ <connection to="Non-Mixer/early reverb:in-2" from="Non-Mixer/helm:early reverb/out-2"/>
+ <connection to="Non-Mixer/early reverb:in-3" from="Non-Mixer/helm:early reverb/out-3"/>
+ <connection to="Non-Mixer/early reverb:in-4" from="Non-Mixer/helm:early reverb/out-4"/>
+ <connection to="Non-Mixer/late reverb:in-1" from="Non-Mixer/helm:late reverb/out-1"/>
+ <connection to="Non-Mixer/helm:in-1" from="Helm:lv2_audio_out_1"/>
+ <connection to="Non-Mixer/helm:in-2" from="Helm:lv2_audio_out_1"/>
+ <connection to="Non-Mixer/late reverb:in-1" from="Non-Mixer/mixxx:late reverb/out-1"/>
+ <connection to="Non-Mixer/early reverb:in-1" from="Non-Mixer/mixxx:early reverb/out-1"/>
+ <connection to="Non-Mixer/early reverb:in-2" from="Non-Mixer/mixxx:early reverb/out-2"/>
+ <connection to="Non-Mixer/early reverb:in-3" from="Non-Mixer/mixxx:early reverb/out-3"/>
+ <connection to="Non-Mixer/early reverb:in-4" from="Non-Mixer/mixxx:early reverb/out-4"/>
+ <connection to="zita-lrx:inp-L" from="Hydrogen:out_L"/>
+ <connection to="zita-lrx:inp-R" from="Hydrogen:out_R"/>
+ <connection to="Non-Mixer (drums):high/in-1" from="zita-lrx:out-L.high"/>
+ <connection to="Non-Mixer (drums):low/in-1" from="zita-lrx:out-L.low"/>
+ <connection to="Non-Mixer (drums):mid/in-1" from="zita-lrx:out-L.mid"/>
+ <connection to="Non-Mixer (drums):sub/in-1" from="zita-lrx:out-L.sub"/>
+ <connection to="Non-Mixer (drums):high/in-2" from="zita-lrx:out-R.high"/>
+ <connection to="Non-Mixer (drums):low/in-2" from="zita-lrx:out-R.low"/>
+ <connection to="Non-Mixer (drums):mid/in-2" from="zita-lrx:out-R.mid"/>
+ <connection to="Non-Mixer (drums):sub/in-2" from="zita-lrx:out-R.sub"/>
+ <connection to="Non-Mixer/late reverb:in-1" from="Non-Mixer (drum_bus):hydrogen/late reverb/out-1"/>
+ <connection to="Non-Mixer/early reverb:in-1" from="Non-Mixer (drum_bus):hydrogen/early reverb/out-1"/>
+ <connection to="Non-Mixer/early reverb:in-2" from="Non-Mixer (drum_bus):hydrogen/early reverb/out-2"/>
+ <connection to="Non-Mixer/early reverb:in-3" from="Non-Mixer (drum_bus):hydrogen/early reverb/out-3"/>
+ <connection to="Non-Mixer/early reverb:in-4" from="Non-Mixer (drum_bus):hydrogen/early reverb/out-4"/>
+ <connection to="Non-Mixer (drum_bus):hydrogen/in-1" from="Non-Mixer (drums):high/out-1"/>
+ <connection to="Non-Mixer (drum_bus):hydrogen/in-1" from="Non-Mixer (drums):low/out-1"/>
+ <connection to="Non-Mixer (drum_bus):hydrogen/in-1" from="Non-Mixer (drums):mid/out-1"/>
+ <connection to="Non-Mixer (drum_bus):hydrogen/in-1" from="Non-Mixer (drums):sub/out-1"/>
+ <connection to="Non-Mixer (drum_bus):hydrogen/in-2" from="Non-Mixer (drums):high/out-2"/>
+ <connection to="Non-Mixer (drum_bus):hydrogen/in-2" from="Non-Mixer (drums):low/out-2"/>
+ <connection to="Non-Mixer (drum_bus):hydrogen/in-2" from="Non-Mixer (drums):mid/out-2"/>
+ <connection to="Non-Mixer (drum_bus):hydrogen/in-2" from="Non-Mixer (drums):sub/out-2"/>
+ <connection to="Non-Mixer/mixxx:in-1" from="Mixxx:out_0"/>
+ <connection to="jamin:in_L" from="Non-Mixer/amb_to_stereo:out-1"/>
+ <connection to="jamin:in_R" from="Non-Mixer/amb_to_stereo:out-2"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-1" from="Non-Mixer (drum_bus):hydrogen/out-1"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-2" from="Non-Mixer (drum_bus):hydrogen/out-2"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-3" from="Non-Mixer (drum_bus):hydrogen/out-3"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-4" from="Non-Mixer (drum_bus):hydrogen/out-4"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-1" from="Non-Mixer/helm:out-1"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-1" from="Non-Mixer/mixxx:out-1"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-2" from="Non-Mixer/helm:out-2"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-2" from="Non-Mixer/mixxx:out-2"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-3" from="Non-Mixer/helm:out-3"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-3" from="Non-Mixer/mixxx:out-3"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-4" from="Non-Mixer/mixxx:out-4"/>
+ <connection to="Non-Mixer/late reverb:in-1" from="Non-Mixer/piano_mono:late reverb/out-1"/>
+ <connection to="Non-Mixer/early reverb:in-1" from="Non-Mixer/piano_mono:early reverb/out-1"/>
+ <connection to="Non-Mixer/early reverb:in-2" from="Non-Mixer/piano_mono:early reverb/out-2"/>
+ <connection to="Non-Mixer/early reverb:in-3" from="Non-Mixer/piano_mono:early reverb/out-3"/>
+ <connection to="Non-Mixer/early reverb:in-4" from="Non-Mixer/piano_mono:early reverb/out-4"/>
+ <connection to="Non-Mixer/piano_mono:in-1" from="LinuxSampler:1"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-1" from="Non-Mixer/piano_mono:out-1"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-2" from="Non-Mixer/piano_mono:out-2"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-3" from="Non-Mixer/piano_mono:out-3"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-4" from="Non-Mixer/piano_mono:out-4"/>
+ <connection to="Hydrogen-midi:RX" from="jack-keyboard:midi_out"/>
+ <connection to="Non-Mixer/amb_to_stereo:in-4" from="Non-Mixer/helm:out-4"/>
+</RAY-JACKPATCH>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE RAYSESSION>
+<RAYSESSION VERSION="0.8.0" name="plugintesting">
+ <Clients>
+  <client id="patch" executable="ray-jackpatch" launched="1" icon="curve-connector" name="JACK Connexions"/>
+  <client id="mixer" executable="non-mixer" launched="1" icon="non-mixer" name="Non-Mixer"/>
+  <client id="z_lrx" executable="ray-proxy" launched="1" icon="zita-lrx" label="zita-lrx" name="Ray Proxy"/>
+  <client id="qsampler" executable="ray-proxy" launched="1" icon="qsampler" label="Qsampler" name="Ray Proxy"/>
+  <client id="patchage" executable="patchage" launched="1" icon="patchage" name="patchage"/>
+  <client id="qsynth" executable="qsynth" launched="1" icon="qsynth" name="qsynth"/>
+  <client id="hydrogen" executable="ray-proxy" launched="1" icon="h2-icon" label="Hydrogen" name="Ray Proxy"/>
+  <client id="qmidiarp" executable="qmidiarp" launched="1" icon="qmidiarp" name="qmidiarp"/>
+  <client id="calf" executable="ray-proxy" launched="1" icon="calf" label="Calf JACK Host" name="Ray Proxy"/>
+  <client id="jkmeter" executable="ray-proxy" launched="1" icon="jkmeter" label="jkmeter" name="Ray Proxy"/>
+ </Clients>
+ <RemovedClients/>
+ <Windows/>
+</RAYSESSION>

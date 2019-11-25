@@ -1,0 +1,66 @@
+<RAY-JACKPATCH>
+ <connection from="ardour:Master/audio_out 1" to="ardour:Monitor/audio_in 1"/>
+ <connection from="ardour:Master/audio_out 2" to="ardour:Monitor/audio_in 2"/>
+ <connection from="ardour:auditioner/audio_out 1" to="ardour:Monitor/audio_in 1"/>
+ <connection from="ardour:auditioner/audio_out 2" to="ardour:Monitor/audio_in 2"/>
+ <connection from="ardour:Monitor/audio_out 1" to="system:playback_4"/>
+ <connection from="ardour:Monitor/audio_out 2" to="system:playback_2"/>
+ <connection from="ardour:Monitor/audio_out 1" to="headphones:playback_1"/>
+ <connection from="ardour:Monitor/audio_out 2" to="headphones:playback_2"/>
+ <connection from="ardour:Click/audio_out 1" to="headphones:playback_1"/>
+ <connection from="ardour:Monitor/audio_out 1" to="SimpleScreenRecorder:in_1"/>
+ <connection from="ardour:Monitor/audio_out 2" to="SimpleScreenRecorder:in_2"/>
+ <connection from="wmic:capture_1" to="SimpleScreenRecorder:in_1"/>
+ <connection from="ardour:Audio 1/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:Audio 1/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:Audio 2/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:Audio 2/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:Audio 3/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:Audio 3/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:helm/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:helm/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:banjo/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:banjo/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="jack-keyboard:midi_out" to="ardour:helm/midi_in 1"/>
+ <connection from="LinuxSampler:0" to="ardour:piano/audio_in 1"/>
+ <connection from="LinuxSampler:1" to="ardour:groove/audio_in 1"/>
+ <connection from="LinuxSampler:2" to="ardour:hiphoppkit2/audio_in 1"/>
+ <connection from="system:capture_1" to="PulseAudio JACK Source:front-left"/>
+ <connection from="system:capture_2" to="PulseAudio JACK Source:front-right"/>
+ <connection from="ardour:Audio 4/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:Audio 4/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:Audio 5/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:Audio 5/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:sesub3/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:sesub3/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:acousticbass/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:acousticbass/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:deepbass/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:groove/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:piano/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:deepbass/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:groove/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:piano/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="Hydrogen:out_L" to="headphones:playback_1"/>
+ <connection from="Hydrogen:out_R" to="headphones:playback_2"/>
+ <connection from="Helm:lv2_audio_out_1" to="ardour:helm/audio_in 1"/>
+ <connection from="Helm:lv2_audio_out_2" to="ardour:helm/audio_in 2"/>
+ <connection from="ardour:mixxx 1/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:mixxx 1/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:mixxx 2/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:mixxx 2/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:mixxx 3/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:mixxx 3/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="ardour:mixxx 4/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:mixxx 4/audio_out 2" to="ardour:Master/audio_in 2"/>
+ <connection from="Mixxx:out_0" to="ardour:mixxx 1/audio_in 1"/>
+ <connection from="Mixxx:out_1" to="ardour:mixxx 2/audio_in 1"/>
+ <connection from="Mixxx:out_2" to="ardour:mixxx 3/audio_in 1"/>
+ <connection from="Mixxx:out_3" to="ardour:mixxx 4/audio_in 1"/>
+ <connection from="Polyphone:output L" to="system:playback_1"/>
+ <connection from="Polyphone:output R" to="system:playback_2"/>
+ <connection from="Polyphone:output L" to="headphones:playback_1"/>
+ <connection from="Polyphone:output R" to="headphones:playback_2"/>
+ <connection from="ardour:qsynth/audio_out 1" to="ardour:Master/audio_in 1"/>
+ <connection from="ardour:qsynth/audio_out 2" to="ardour:Master/audio_in 2"/>
+</RAY-JACKPATCH>
