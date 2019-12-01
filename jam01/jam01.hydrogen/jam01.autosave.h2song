@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
  <version>1.0.0-'c31a0af7'</version>
- <bpm>100</bpm>
+ <bpm>60</bpm>
  <volume>1.23947</volume>
  <metronomeVolume>0.5</metronomeVolume>
  <name>Untitled Song</name>
@@ -2982,6 +2982,19 @@
      <key>C0</key>
      <length>-1</length>
      <instrument>51</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>66</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <probability>1</probability>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>39</instrument>
      <note_off>false</note_off>
     </note>
     <note>

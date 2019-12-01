@@ -2,9 +2,10 @@
 	Group 0xFB create :name "crossover"
 	Mixer_Strip 0xBD create :name "reverb_main" :width "narrow" :tab "signal" :color 861021530 :gain_mode 0 :mute_mode 0 :group 0x0 :auto_input "" :manual_connection 0
 	Chain 0xBE create :strip 0xBD :tab "chain"
-	JACK_Module 0xBF create :parameter_values "0.000000:2.000000" :is_default 1 :chain 0xBE :active 1
-	AUX_Module 0xF5 create :number 0 :parameter_values "0.000000" :is_default 0 :chain 0xBE :active 1
-	Plugin_Module 0x160 create :plugin_id 2142 :plugin_ins 2 :plugin_outs 2 :parameter_values "2500.000000:0.000000:-34.000000:1.000000:1.000000:1.000000:1.000000:3.000000" :is_default 0 :chain 0xBE :active 1
+	JACK_Module 0xBF create :parameter_values "0.000000:1.000000" :is_default 1 :chain 0xBE :active 1
+	AUX_Module 0x1C0 create :number 0 :parameter_values "0.000000" :is_default 0 :chain 0xBE :active 1
+	Mono_Pan_Module 0x1C5 create :parameter_values "-0.220000" :is_default 0 :chain 0xBE :active 1
+	Plugin_Module 0x1C6 create :plugin_id 3701 :plugin_ins 2 :plugin_outs 2 :parameter_values "0.046099:223.606812:2.750000:2.750000:5999.998047:159.054169:-11.000000:2514.866943:-11.000000:0.411348" :is_default 0 :chain 0xBE :active 1
 	Gain_Module 0xC0 create :parameter_values "-3.000000:0.000000" :is_default 1 :chain 0xBE :active 1
 	Meter_Module 0xC1 create :is_default 1 :chain 0xBE :active 1
 	JACK_Module 0xC2 create :parameter_values "2.000000:0.000000" :is_default 1 :chain 0xBE :active 1
@@ -66,7 +67,9 @@
 	Chain 0xA6 create :strip 0xA5 :tab "chain"
 	JACK_Module 0xA7 create :parameter_values "0.000000:1.000000" :is_default 1 :chain 0xA6 :active 1
 	AUX_Module 0xB1 create :number 0 :parameter_values "-3.000000" :is_default 0 :chain 0xA6 :active 1
-	Plugin_Module 0xCC create :plugin_id 1406 :plugin_ins 1 :plugin_outs 2 :is_default 0 :chain 0xA6 :active 1
+	Plugin_Module 0x1C9 create :plugin_id 1767 :plugin_ins 1 :plugin_outs 1 :parameter_values "2.500000:3.700000:0.500000:0.000000:0.226950:0.446809" :is_default 0 :chain 0xA6 :active 0
+	Mono_Pan_Module 0x1C7 create :parameter_values "0.260000" :is_default 0 :chain 0xA6 :active 1
+	Plugin_Module 0x1C8 create :lv2_plugin_uri "http://moddevices.com/plugins/tap/dynamics-st" :plugin_ins 2 :plugin_outs 2 :parameter_values "60.000000:110.000000:-0.500000:-12.500000:1.000000:8.000000" :is_default 0 :chain 0xA6 :active 1
 	Gain_Module 0xA8 create :parameter_values "-3.000000:0.000000" :is_default 1 :chain 0xA6 :active 1
 	Meter_Module 0xA9 create :is_default 1 :chain 0xA6 :active 1
 	JACK_Module 0xAA create :parameter_values "2.000000:0.000000" :is_default 1 :chain 0xA6 :active 1
