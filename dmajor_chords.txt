@@ -1,0 +1,232 @@
+C#dim:                                                                                                                                                                                        
+                                                                                                                                                                                              
+C♯ E G                                                                                                                                                                                        
+C#m7b5: 
+
+C♯ E G B
+C#m7b5b9: 
+
+C♯ E G B D
+C#m7b5b11: 
+
+C♯ E G B D F♯
+Em: 
+
+E G B
+F#m: 
+
+F♯ A C♯
+Bm: 
+
+B D F♯
+Em6: 
+
+E G B C♯
+Em7: 
+
+E G B D
+F#m7: 
+
+F♯ A C♯ E
+Bm7: 
+
+B D F♯ A
+F#m9: 
+
+F♯ A C♯ E G
+F#m11: 
+
+F♯ A C♯ E G B
+DM: 
+
+D F♯ A
+GM: 
+
+G B D
+AM: 
+
+A C♯ E
+DM6: 
+
+D F♯ A B
+GM6: 
+
+G B D E
+AM6: 
+
+A C♯ E F♯
+D6/9: 
+
+D F♯ A B E
+G6/9: 
+
+G B D E A
+A6/9: 
+
+A C♯ E F♯ B
+D6/9(add11): 
+
+D F♯ A B E G
+A6/9(add11): 
+
+A C♯ E F♯ B D
+A7: 
+
+A C♯ E G
+A9: 
+
+A C♯ E G B
+A11: 
+
+A C♯ E G B D
+A13: 
+
+A C♯ E G B D F♯
+DM7: 
+
+D F♯ A C♯
+GM7: 
+
+G B D F♯
+DM9: 
+
+D F♯ A C♯ E
+GM9: 
+
+G B D F♯ A
+DM11: 
+
+D F♯ A C♯ E G
+DM13: 
+
+D F♯ A C♯ E G B
+DMsus2: 
+
+D E A
+EMsus2: 
+
+E F♯ B
+GMsus2: 
+
+G A D
+AMsus2: 
+
+A B E
+BMsus2: 
+
+B C♯ F♯
+DM6sus2: 
+
+D E A B
+EM6sus2: 
+
+E F♯ B C♯
+GM6sus2: 
+
+G A D E
+AM6sus2: 
+
+A B E F♯
+E7sus2: 
+
+E F♯ B D
+A7sus2: 
+
+A B E G
+B7sus2: 
+
+B C♯ F♯ A
+DM7sus2: 
+
+D E A C♯
+GM7sus2: 
+
+G A D F♯
+B+sus2: 
+
+B C♯ G
+B+7sus2: 
+
+B C♯ G A
+DMsus4: 
+
+D G A
+EMsus4: 
+
+E A B
+F#Msus4: 
+
+F♯ B C♯
+AMsus4: 
+
+A D E
+BMsus4: 
+
+B E F♯
+DM6sus4: 
+
+D G A B
+EM6sus4: 
+
+E A B C♯
+AM6sus4: 
+
+A D E F♯
+D6/9sus4: 
+
+D G A B E
+E6/9sus4: 
+
+E A B C♯ F♯
+A6/9sus4: 
+
+A D E F♯ B
+E7sus4: 
+
+E A B D
+F#7sus4: 
+
+F♯ B C♯ E
+A7sus4: 
+
+A D E G
+B7sus4: 
+
+B E F♯ A
+E9sus4: 
+
+E A B D F♯
+A9sus4: 
+
+A D E G B
+B9sus4: 
+
+B E F♯ A C♯
+DM7sus4: 
+
+D G A C♯
+DM9sus4: 
+
+D G A C♯ E
+F#+sus4: 
+
+F♯ B D
+B+sus4: 
+
+B E G
+C#+sus4: 
+
+C♯ F♯ A
+F#+7sus4: 
+
+F♯ B D E
+B+7sus4: 
+
+B E G A
+C#+7sus4: 
+
+C♯ F♯ A B
+B+9sus4: 
+
+B E G A C♯
+

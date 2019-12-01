@@ -7,29 +7,35 @@
   <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" launched="1" id="jalv_gtkmm"/>
   <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" launched="1" id="qsampler"/>
   <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" launched="1" id="mixer"/>
-  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" launched="0" id="sequencer"/>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" launched="1" id="sequencer"/>
   <client executable="jalv.select" name="jalv.select" icon="jalv.select" launched="1" id="jalv_selec"/>
   <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" launched="1" id="z_lrx"/>
   <client executable="mixxx" name="mixxx" icon="mixxx" launched="1" id="mixxx"/>
   <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" launched="1" id="hydrogen"/>
-  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" launched="0" id="calf"/>
-  <client executable="qmidiarp" name="qmidiarp" icon="qmidiarp" launched="1" id="qmidiarp"/>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" launched="1" id="calf"/>
   <client executable="patchage" name="patchage" icon="patchage" launched="1" id="patchage"/>
   <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" launched="1" id="z_mu1"/>
   <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" launched="1" id="jkmeter"/>
   <client executable="vmpk" name="vmpk" icon="vmpk" launched="1" id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" launched="1" id="qmidiarp"/>
  </Clients>
  <RemovedClients/>
  <Windows>
   <window name="Qsynth1 — Qsynth" desktop="4" class="qsynth.Qsynth"/>
   <window name="Non Mixer" desktop="0" class="Non-Mixer.Non-Mixer"/>
-  <window name="jam01.lscp — Qsampler" desktop="4" class="qsampler.Qsampler"/>
+  <window name="jam01.lscp — Qsampler" desktop="-1" class="qsampler.Qsampler"/>
   <window name="jalv.gtkmm" desktop="1" class="jalv.gtkmm.Jalv.gtkmm"/>
   <window name="Mixxx 2.2.0" desktop="2" class="mixxx.Mixxx"/>
   <window name="QMidiArp (0)" desktop="1" class="qmidiarp.qmidiarp"/>
   <window name="Patchage" desktop="0" class="patchage.Patchage"/>
-  <window name="Virtual MIDI Piano Keyboard" desktop="0" class="vmpk.Vmpk"/>
+  <window name="Virtual MIDI Piano Keyboard" desktop="4" class="vmpk.Vmpk"/>
   <window name="LV2 plugs" desktop="0" class="jalv.select.Jalv.select"/>
   <window name="Hydrogen 1.0.0-'c31a0af7' - jam01.h2song" desktop="0" class="hydrogen.Hydrogen"/>
+  <window name="Host - session: Calf Studio Gear.calfjackhost soundbot Calf JACK Host - session: Calf Studio Gear" desktop="0" class="Calf"/>
+  <window name="Ray Proxy" desktop="0" class="ray-proxy.RaySession"/>
+  <window name="/home/b08x/studio/sessions/jam01/jam01.qmidiarp/jam01.qmax - QMidiArp (0)" desktop="1" class="qmidiarp.qmidiarp"/>
+  <window name="Messages — Qsampler" desktop="-1" class="qsampler.Qsampler"/>
+  <window name="Non Sequencer" desktop="0" class="Non-Sequencer.Non-Sequencer"/>
+  <window name="Plugin Chooser" desktop="0" class="Non-Mixer.Non-Mixer"/>
  </Windows>
 </RAYSESSION>

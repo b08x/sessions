@@ -941,4 +941,718 @@
   </client>
   <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
  </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_14_42_33" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="qmidiarp" name="qmidiarp" icon="qmidiarp" client_id="qmidiarp"/>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_14_45_11" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="qmidiarp" name="qmidiarp" icon="qmidiarp" client_id="qmidiarp"/>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_14_52_6" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="qmidiarp" name="qmidiarp" icon="qmidiarp" client_id="qmidiarp"/>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_15_16_45" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="qmidiarp" name="qmidiarp" icon="qmidiarp" client_id="qmidiarp"/>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_15_55_56" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_15_58_29" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_16_23_46" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_16_28_9" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_16_34_16" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_16_41_35" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_16_43_43" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_16_47_34" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_17_47_56" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_18_14_21" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_19_49_30" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_21_2_9" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_21_4_20" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_22_24_47" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
+ <Snapshot name="" session_name="jam01" rewind_snapshot="" ref="2019_12_1_22_25_4" VERSION="0.8.0">
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" client_id="patch">
+   <file path="jam01.patch.xml"/>
+  </client>
+  <client executable="qsynth" name="qsynth" icon="qsynth" client_id="qsynth"/>
+  <client executable="ray-proxy" label="Helm" name="Ray Proxy" icon="Helm" client_id="jalv_gtkmm">
+   <file path="jam01.jalv_gtkmm"/>
+  </client>
+  <client executable="ray-proxy" label="Qsampler" name="Ray Proxy" icon="qsampler" client_id="qsampler">
+   <file path="jam01.qsampler"/>
+  </client>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" client_id="mixer">
+   <file path="jam01.mixer"/>
+  </client>
+  <client executable="non-sequencer" name="Non-Sequencer" icon="non-sequencer" client_id="sequencer">
+   <file path="jam01.sequencer.non"/>
+  </client>
+  <client executable="jalv.select" name="jalv.select" icon="jalv.select" client_id="jalv_selec"/>
+  <client executable="ray-proxy" label="zita-lrx" name="Ray Proxy" icon="zita-lrx" client_id="z_lrx">
+   <file path="jam01.z_lrx"/>
+  </client>
+  <client executable="mixxx" name="mixxx" icon="mixxx" client_id="mixxx"/>
+  <client executable="ray-proxy" label="Hydrogen" name="Ray Proxy" icon="h2-icon" client_id="hydrogen">
+   <file path="jam01.hydrogen"/>
+  </client>
+  <client executable="ray-proxy" label="Calf JACK Host" name="Ray Proxy" icon="calf" client_id="calf">
+   <file path="jam01.calf"/>
+  </client>
+  <client executable="patchage" name="patchage" icon="patchage" client_id="patchage"/>
+  <client executable="zita-mu1" name="zita-mu1" icon="zita-mu1" client_id="z_mu1"/>
+  <client executable="ray-proxy" label="jkmeter" name="Ray Proxy" icon="jkmeter" client_id="jkmeter">
+   <file path="jam01.jkmeter"/>
+  </client>
+  <client executable="vmpk" name="vmpk" icon="vmpk" client_id="vmpk"/>
+  <client executable="ray-proxy" label="qmidiarp" name="Ray Proxy" icon="qmidiarp" client_id="qmidiarp">
+   <file path="jam01.qmidiarp"/>
+  </client>
+ </Snapshot>
 </SNAPSHOTS>
