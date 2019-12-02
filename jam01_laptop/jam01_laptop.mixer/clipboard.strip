@@ -1,0 +1,12 @@
+{
+	Mixer_Strip 0xA5 create :name "piano" :width "narrow" :tab "signal" :color 521595368 :gain_mode 0 :mute_mode 0 :group 0x254 :auto_input "" :manual_connection 0
+	Chain 0xA6 create :strip 0xA5 :tab "chain"
+	JACK_Module 0xA7 create :parameter_values "0.000000:1.000000" :is_default 1 :chain 0xA6 :active 1
+	Plugin_Module 0x22C create :lv2_plugin_uri "urn:ardour:a-eq" :plugin_ins 1 :plugin_outs 1 :parameter_values "160.000000:-0.500000:400.000000:-0.500000:1.000000:1000.000000:0.000000:1.000000:2500.000000:0.000000:1.000000:6000.000000:0.000000:1.000000:9000.000000:0.000000:0.000000:1.000000:1.000000:1.000000:1.000000:1.000000:1.000000:1.000000" :is_default 0 :chain 0xA6 :active 1
+	AUX_Module 0x331 create :number 0 :parameter_values "0.000000" :is_default 0 :chain 0xA6 :active 1
+	Plugin_Module 0x22B create :lv2_plugin_uri "http://moddevices.com/plugins/caps/Wider" :plugin_ins 1 :plugin_outs 2 :parameter_values "0.400000:0.531915" :is_default 0 :chain 0xA6 :active 1
+	Plugin_Module 0x1C8 create :lv2_plugin_uri "http://moddevices.com/plugins/tap/dynamics-st" :plugin_ins 2 :plugin_outs 2 :parameter_values "60.000000:110.000000:-0.500000:-12.500000:1.000000:8.000000" :is_default 0 :chain 0xA6 :active 1
+	Gain_Module 0xA8 create :parameter_values "-3.000000:0.000000" :is_default 1 :chain 0xA6 :active 1
+	Meter_Module 0xA9 create :is_default 1 :chain 0xA6 :active 1
+	JACK_Module 0xAA create :parameter_values "2.000000:0.000000" :is_default 1 :chain 0xA6 :active 1
+}
