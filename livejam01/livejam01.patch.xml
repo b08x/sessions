@@ -1,0 +1,14 @@
+<RAY-JACKPATCH>
+ <connection from="PulseAudio JACK Sink:front-left" to="jamin:in_L"/>
+ <connection from="PulseAudio JACK Sink:front-right" to="jamin:in_R"/>
+ <connection from="jamin:a.master.out_L" to="system:playback_1"/>
+ <connection from="jamin:a.master.out_L" to="headphones:playback_1"/>
+ <connection from="jamin:a.master.out_R" to="system:playback_2"/>
+ <connection from="jamin:a.master.out_R" to="headphones:playback_2"/>
+ <connection from="gx_head_amp:out_0" to="gx_head_fx:in_0"/>
+ <connection from="seq64:system midi_playback_1" to="system:midi_playback_1"/>
+ <connection from="seq64:a2j Midi Through [14] (playback): Midi Through Port-0" to="a2j:Midi Through [14] (playback): Midi Through Port-0"/>
+ <connection from="seq64:Helm lv2_events_in" to="Helm:lv2_events_in"/>
+ <connection from="seq64:gx_head_amp midi_in_1" to="gx_head_amp:midi_in_1"/>
+ <connection from="system:capture_1" to="gx_head_amp:in_0"/>
+</RAY-JACKPATCH>

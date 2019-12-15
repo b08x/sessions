@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE RAYSESSION>
+<RAYSESSION VERSION="0.8.0" name="livejam02">
+ <Clients>
+  <client launched="1" name="JACK Connexions" executable="ray-jackpatch" id="patch" icon="curve-connector"/>
+  <client launched="1" name="patchage" executable="patchage" id="patchage" icon="patchage"/>
+  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="jalv_gtkmm" icon="Helm" label="Helm"/>
+  <client launched="0" name="Ray Proxy" executable="ray-proxy" id="guitarix" icon="gx_head" label="Guitarix"/>
+  <client launched="1" name="Non-Mixer" executable="non-mixer" id="mixer" icon="non-mixer"/>
+  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="qsampler" icon="qsampler" label="Qsampler"/>
+  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="seq64" icon="sequencer64" label="Sequencer64"/>
+  <client unignored_extensions=" .wav" launched="0" name="SooperLooper" gui_visible="0" executable="sooperlooper_nsm" id="sooperloop_2" icon="sooperlooper" arguments="--transport_workaround"/>
+  <client launched="0" name="Ray Proxy" executable="ray-proxy" id="jconvolver" icon="jconvolver" label="jconvolvermaeshow"/>
+  <client launched="1" name="ambdec" executable="ambdec" id="ambdec" icon="ambdec"/>
+  <client launched="1" name="mixxx" executable="mixxx" id="mixxx" icon="mixxx"/>
+  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="qmidiarp" icon="qmidiarp" label="qmidiarp"/>
+  <client launched="1" name="zita-rev1" executable="zita-rev1" id="z_rev1_2" icon="zita-rev1"/>
+  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="calf" icon="calf" label="Calf JACK Host"/>
+  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="z_lrx" icon="zita-lrx" label="zita-lrx"/>
+ </Clients>
+ <RemovedClients>
+  <client unignored_extensions=" .wav" name="SooperLooper" executable="sooperlooper_nsm" id="sooperloop" icon="sooperlooper"/>
+  <client name="Ray Proxy" executable="ray-proxy" id="z_rev1" icon="zita-rev1"/>
+ </RemovedClients>
+ <Windows>
+  <window name="Patchage" desktop="0" class="patchage.Patchage"/>
+  <window name="SooperLooper v 1.7.3" desktop="0" class="slgui.Slgui"/>
+  <window name="livejam02.lscp — Qsampler" desktop="3" class="qsampler.Qsampler"/>
+  <window name="jalv.gtkmm" desktop="2" class="jalv.gtkmm.Jalv.gtkmm"/>
+  <window name="Guitarix: gx_head" desktop="0" class="guitarix.Guitarix"/>
+  <window name="Non Mixer" desktop="0" class="Non-Mixer.Non-Mixer"/>
+  <window name="Mixxx 2.2.0" desktop="1" class="mixxx.Mixxx"/>
+  <window name="seq64 - /home/b08x/studio/library...onlight_sonata_EASYPNO.mid (192 ppqn)" desktop="3" class="seq64.Seq64"/>
+  <window name="Mixer - helm - Spatializer" desktop="0" class="Non-Mixer.Non-Mixer"/>
+  <window name="/home/b08x/studio/sessions/livejam02/livejam02.qmidiarp/livejam02.qmax - QMidiArp (0)" desktop="2" class="qmidiarp.qmidiarp"/>
+  <window name="seq64 #3 &quot;Violoncello 70&quot; (192 ppqn)" desktop="3" class="seq64.Seq64"/>
+  <window name="Sequencer64 - Song Editor 2" desktop="3" class="seq64.Seq64"/>
+  <window name="seq64 #6 &quot;Piano 70&quot; (192 ppqn)" desktop="3" class="seq64.Seq64"/>
+  <window name="seq64 #7 &quot;Untitled 1&quot; (192 ppqn)" desktop="3" class="seq64.Seq64"/>
+  <window name="Mixer - piano - Spatializer" desktop="0" class="Non-Mixer.Non-Mixer"/>
+  <window name="Spatialization Console" desktop="0" class="Non-Mixer.Non-Mixer"/>
+  <window name="dial up modem | Mixxx 2.2.0" desktop="1" class="mixxx.Mixxx"/>
+  <window name="kathakaku silliska | Mixxx 2.2.0" desktop="1" class="mixxx.Mixxx"/>
+  <window name="Mixer - usbmic - Plugin : Simple amplifier" desktop="0" class="Non-Mixer.Non-Mixer"/>
+  <window name="radio tuning | Mixxx 2.2.0" desktop="1" class="mixxx.Mixxx"/>
+ </Windows>
+</RAYSESSION>

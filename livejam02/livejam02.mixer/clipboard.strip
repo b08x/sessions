@@ -1,0 +1,9 @@
+{
+	Mixer_Strip 0x5C create :name "Unnamed" :width "narrow" :tab "signal" :color 285891243 :gain_mode 0 :mute_mode 0 :group 0x0 :auto_input "" :manual_connection 0
+	Chain 0x5D create :strip 0x5C :tab "chain"
+	JACK_Module 0x5E create :parameter_values "0.000000:2.000000" :is_default 1 :chain 0x5D :active 1
+	Plugin_Module 0x6E create :lv2_plugin_uri "http://plugin.org.uk/swh-plugins/sc4" :plugin_ins 2 :plugin_outs 2 :parameter_values "0.000000:101.125000:401.000000:-21.000000:2.000000:1.000000:0.000000" :is_default 0 :chain 0x5D :active 1
+	Gain_Module 0x5F create :parameter_values "0.000000:0.000000" :is_default 1 :chain 0x5D :active 1
+	Meter_Module 0x60 create :is_default 1 :chain 0x5D :active 1
+	JACK_Module 0x61 create :parameter_values "2.000000:0.000000" :is_default 1 :chain 0x5D :active 1
+}
