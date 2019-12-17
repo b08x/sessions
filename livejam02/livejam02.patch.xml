@@ -144,4 +144,18 @@
  <connection from="jack-keyboard-02:midi_out" to="qsynth:midi_00"/>
  <connection from="Helm:lv2_audio_out_1" to="Non-Mixer (synths):helm/in-1"/>
  <connection from="Helm:lv2_audio_out_2" to="Non-Mixer (synths):helm/in-2"/>
+ <connection from="REAPER:out1" to="Calf Studio Gear:Equalizer 12 Band In #1"/>
+ <connection from="REAPER:out2" to="Calf Studio Gear:Equalizer 12 Band In #2"/>
+ <connection from="PulseAudio JACK Sink:front-left" to="zita-rev1:in.L"/>
+ <connection from="PulseAudio JACK Sink:front-right" to="zita-rev1:in.R"/>
+ <connection from="LinuxSampler:10" to="Non-Mixer (winds):clarinet_full/in-1"/>
+ <connection from="LinuxSampler:11" to="Non-Mixer (winds):clarinet_full/in-2"/>
+ <connection from="Non-Mixer (winds):clarinet_full/out-1" to="Non-Mixer (busses):winds/in-1"/>
+ <connection from="Non-Mixer (winds):clarinet_full/out-2" to="Non-Mixer (busses):winds/in-2"/>
+ <connection from="Non-Mixer (busses):winds/out-1" to="Non-Mixer/toambdec:in-1"/>
+ <connection from="Non-Mixer (busses):winds/out-2" to="Non-Mixer/toambdec:in-2"/>
+ <connection from="Non-Mixer (busses):winds/out-3" to="Non-Mixer/toambdec:in-3"/>
+ <connection from="Non-Mixer (busses):winds/out-4" to="Non-Mixer/toambdec:in-4"/>
+ <connection from="a2j:VMPK Output [132] (capture): VMPK Output" to="LinuxSampler:midi_in_0"/>
+ <connection from="jack-keyboard-01:midi_out" to="Helm:lv2_events_in"/>
 </RAY-JACKPATCH>

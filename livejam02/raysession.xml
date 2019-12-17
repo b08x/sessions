@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE RAYSESSION>
-<RAYSESSION VERSION="0.8.0" name="livejam02">
+<RAYSESSION name="livejam02" VERSION="0.8.0">
  <Clients>
-  <client launched="1" name="JACK Connexions" executable="ray-jackpatch" id="patch" icon="curve-connector"/>
-  <client launched="1" name="patchage" executable="patchage" id="patchage" icon="patchage"/>
-  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="jalv_gtkmm" icon="Helm" label="Helm"/>
-  <client launched="0" name="Ray Proxy" executable="ray-proxy" id="guitarix" icon="gx_head" label="Guitarix"/>
-  <client launched="1" name="Non-Mixer" executable="non-mixer" id="mixer" icon="non-mixer"/>
-  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="qsampler" icon="qsampler" label="Qsampler"/>
-  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="seq64" icon="sequencer64" label="Sequencer64"/>
-  <client unignored_extensions=" .wav" launched="0" name="SooperLooper" gui_visible="0" executable="sooperlooper_nsm" id="sooperloop_2" icon="sooperlooper" arguments="--transport_workaround"/>
-  <client launched="0" name="Ray Proxy" executable="ray-proxy" id="jconvolver" icon="jconvolver" label="jconvolvermaeshow"/>
-  <client launched="1" name="ambdec" executable="ambdec" id="ambdec" icon="ambdec"/>
-  <client launched="1" name="mixxx" executable="mixxx" id="mixxx" icon="mixxx"/>
-  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="qmidiarp" icon="qmidiarp" label="qmidiarp"/>
-  <client launched="1" name="zita-rev1" executable="zita-rev1" id="z_rev1_2" icon="zita-rev1"/>
-  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="calf" icon="calf" label="Calf JACK Host"/>
-  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="z_lrx" icon="zita-lrx" label="zita-lrx"/>
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" id="patch" launched="1"/>
+  <client executable="patchage" name="patchage" icon="patchage" id="patchage" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="Helm" icon="Helm" id="jalv_gtkmm" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="Guitarix" icon="gx_head" id="guitarix" launched="0"/>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" id="mixer" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="Qsampler" icon="qsampler" id="qsampler" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="Sequencer64" icon="sequencer64" id="seq64" launched="1"/>
+  <client executable="sooperlooper_nsm" name="SooperLooper" unignored_extensions=" .wav" icon="sooperlooper" id="sooperloop_2" launched="0" arguments="--transport_workaround"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="jconvolvermaeshow" icon="jconvolver" id="jconvolver" launched="0"/>
+  <client executable="ambdec" name="ambdec" icon="ambdec" id="ambdec" launched="1"/>
+  <client executable="mixxx" name="mixxx" icon="mixxx" id="mixxx" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="qmidiarp" icon="qmidiarp" id="qmidiarp" launched="1"/>
+  <client executable="zita-rev1" name="zita-rev1" icon="zita-rev1" id="z_rev1_2" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="Calf JACK Host" icon="calf" id="calf" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="zita-lrx" icon="zita-lrx" id="z_lrx" launched="1"/>
  </Clients>
  <RemovedClients>
-  <client unignored_extensions=" .wav" name="SooperLooper" executable="sooperlooper_nsm" id="sooperloop" icon="sooperlooper"/>
-  <client name="Ray Proxy" executable="ray-proxy" id="z_rev1" icon="zita-rev1"/>
+  <client executable="sooperlooper_nsm" name="SooperLooper" unignored_extensions=" .wav" icon="sooperlooper" id="sooperloop"/>
+  <client executable="ray-proxy" name="Ray Proxy" icon="zita-rev1" id="z_rev1"/>
  </RemovedClients>
  <Windows>
   <window name="Patchage" desktop="0" class="patchage.Patchage"/>
   <window name="SooperLooper v 1.7.3" desktop="0" class="slgui.Slgui"/>
-  <window name="livejam02.lscp — Qsampler" desktop="3" class="qsampler.Qsampler"/>
+  <window name="livejam02.lscp — Qsampler" desktop="0" class="qsampler.Qsampler"/>
   <window name="jalv.gtkmm" desktop="2" class="jalv.gtkmm.Jalv.gtkmm"/>
   <window name="Guitarix: gx_head" desktop="0" class="guitarix.Guitarix"/>
   <window name="Non Mixer" desktop="0" class="Non-Mixer.Non-Mixer"/>
@@ -43,5 +43,8 @@
   <window name="kathakaku silliska | Mixxx 2.2.0" desktop="1" class="mixxx.Mixxx"/>
   <window name="Mixer - usbmic - Plugin : Simple amplifier" desktop="0" class="Non-Mixer.Non-Mixer"/>
   <window name="radio tuning | Mixxx 2.2.0" desktop="1" class="mixxx.Mixxx"/>
+  <window name="Host - session: Calf Studio Gear.calfjackhost lapbot Calf JACK Host - session: Calf Studio Gear" desktop="4" class="Calf"/>
+  <window name="seq64 - livejam02.midi (192 ppqn)" desktop="0" class="seq64.Seq64"/>
+  <window name="Calf - Equalizer 12 Band" desktop="4" class="calfjackhost.Calfjackhost"/>
  </Windows>
 </RAYSESSION>
