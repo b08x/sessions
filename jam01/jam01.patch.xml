@@ -84,8 +84,6 @@
  <connection from="Non-Mixer/reverb_main:out-2" to="Crossfade (4 outs):inputRA"/>
  <connection from="Non-Mixer/piano:out-1" to="Crossfade (4 outs):inputLB"/>
  <connection from="Non-Mixer/piano:out-2" to="Crossfade (4 outs):inputRB"/>
- <connection from="PulseAudio JACK Sink:front-left" to="Non-Mixer/mixxx:in-1"/>
- <connection from="PulseAudio JACK Sink:front-right" to="Non-Mixer/mixxx:in-2"/>
  <connection from="MIDI Step Sequencer8x8:midiout" to="MIDI Chord:midiin"/>
  <connection from="qmidiarp:out 2" to="LinuxSampler:midi_in_0"/>
  <connection from="Crossfade (4 outs):outputLA" to="jamin:in_L"/>
@@ -107,8 +105,6 @@
  <connection from="jamin:a.master.out_R" to="Calf Multiband Limiter:in_r"/>
  <connection from="jamin:a.master.out_L" to="Calf Multiband Limiter:in_l"/>
  <connection from="Calf Multiband Limiter:out_l" to="Calf Equalizer 12 Band:in_l"/>
- <connection from="Non-Mixer/mixxx:out-1" to="jamin:in_L"/>
- <connection from="Non-Mixer/mixxx:out-2" to="jamin:in_R"/>
  <connection from="Polyphone:output R" to="zita-mu1:in_4.L"/>
  <connection from="a2j:VMPK Output [136] (capture): VMPK Output" to="a2j:Polyphone [135] (playback): RtMidi Input"/>
  <connection from="Mixxx:out_2" to="Non-Mixer/mixxx:in-1"/>
@@ -129,7 +125,6 @@
  <connection from="Non-Mixer (strings):cello sfor/aux-A/out-1" to="Non-Mixer/reverb_main:in-1"/>
  <connection from="qsynth:left" to="Non-Mixer (synths):qsynth/in-1"/>
  <connection from="qsynth:right" to="Non-Mixer (synths):qsynth/in-2"/>
- <connection from="Non-Mixer (percussion):hydro/aux-A/out-1" to="Non-Mixer (busses):percussion_bus/in-1"/>
  <connection from="Non-Mixer (percussion):hydro/aux-A/out-2" to="Non-Mixer (busses):percussion_bus/in-2"/>
  <connection from="qmidiarp:out 2" to="Helm:lv2_events_in"/>
  <connection from="MIDI Strum:midiout" to="MIDI Chord:midiin"/>
@@ -155,6 +150,28 @@
  <connection from="Non-Mixer (synths):helm/out-2" to="Calf Studio Gear:Equalizer 12 Band In #2"/>
  <connection from="Non-Mixer/reverb_main:out-1" to="Calf Studio Gear:Equalizer 12 Band In #1"/>
  <connection from="Non-Mixer/reverb_main:out-2" to="Calf Studio Gear:Equalizer 12 Band In #2"/>
- <connection from="Non-Mixer/mixxx:out-1" to="Calf Studio Gear:Equalizer 12 Band In #1"/>
- <connection from="Non-Mixer/mixxx:out-2" to="Calf Studio Gear:Equalizer 12 Band In #2"/>
+ <connection from="Mixxx:out_0" to="Non-Mixer/mixxx:in-1"/>
+ <connection from="Mixxx:out_1" to="Non-Mixer/mixxx:in-2"/>
+ <connection from="usbmic:capture_1" to="Non-Mixer/usbmic:in-1"/>
+ <connection from="Non-Mixer/usbmic:aux-A/out-1" to="Non-Mixer (effects):fx01/in-1"/>
+ <connection from="Non-Mixer/usbmic:aux-B/out-1" to="japa:in_1"/>
+ <connection from="Non-Mixer/usbmic:aux-B/out-1" to="jnoisemeter:in_1"/>
+ <connection from="jnoisemeter:out" to="japa:in_2"/>
+ <connection from="Non-Mixer (effects):fx01/aux-A/out-1" to="Non-Mixer (effects):fx02/in-1"/>
+ <connection from="Non-Mixer (effects):fx01/aux-A/out-2" to="Non-Mixer (effects):fx03/in-1"/>
+ <connection from="Non-Mixer (synths):helm/aux-A/out-1" to="Non-Mixer (reverb):reverb01/in-1"/>
+ <connection from="Non-Mixer (synths):helm/aux-A/out-2" to="Non-Mixer (reverb):reverb01/in-2"/>
+ <connection from="Non-Mixer (reverb):reverb01/out-1" to="Crossfade:inputLA"/>
+ <connection from="Non-Mixer (reverb):reverb01/out-2" to="Crossfade:inputRA"/>
+ <connection from="Non-Mixer (reverb):reverb02/out-1" to="Crossfade:inputLB"/>
+ <connection from="Non-Mixer (reverb):reverb02/out-2" to="Crossfade:inputRB"/>
+ <connection from="Crossfade:outputL" to="Calf Studio Gear:Equalizer 12 Band In #1"/>
+ <connection from="Crossfade:outputR" to="Calf Studio Gear:Equalizer 12 Band In #2"/>
+ <connection from="Non-Mixer (effects):fx02/out-1" to="Non-Mixer (busses):fx_bus/in-1"/>
+ <connection from="Non-Mixer (effects):fx03/out-1" to="Non-Mixer (busses):fx_bus/in-1"/>
+ <connection from="Non-Mixer (effects):fx01/out-1" to="Non-Mixer (busses):fx_bus/in-1"/>
+ <connection from="PulseAudio JACK Sink:front-left" to="jamin:in_L"/>
+ <connection from="PulseAudio JACK Sink:front-right" to="jamin:in_R"/>
+ <connection from="jamin:a.master.out_L" to="zita-mu1:in_1.L"/>
+ <connection from="jamin:a.master.out_R" to="zita-mu1:in_1.R"/>
 </RAY-JACKPATCH>

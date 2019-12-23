@@ -4,8 +4,8 @@
   <param name="bypass" value="0" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
-  <param name="meter_inL" value="5.75427e-10" />
-  <param name="meter_inR" value="3.06391e-11" />
+  <param name="meter_inL" value="0" />
+  <param name="meter_inR" value="0" />
   <param name="meter_outL" value="0" />
   <param name="meter_outR" value="0" />
   <param name="clip_inL" value="0" />
