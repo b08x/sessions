@@ -1,0 +1,165 @@
+<RAY-JACKPATCH>
+ <connection from="zita-lrx:out-L.high" to="Non-Mixer/high:in-1"/>
+ <connection from="zita-lrx:out-R.high" to="Non-Mixer/high:in-2"/>
+ <connection from="zita-lrx:out-L.low" to="Non-Mixer/low:in-1"/>
+ <connection from="zita-lrx:out-L.mid" to="Non-Mixer/mid:in-1"/>
+ <connection from="zita-lrx:out-L.sub" to="Non-Mixer/sub:in-1"/>
+ <connection from="zita-lrx:out-R.low" to="Non-Mixer/low:in-2"/>
+ <connection from="zita-lrx:out-R.mid" to="Non-Mixer/mid:in-2"/>
+ <connection from="zita-lrx:out-R.sub" to="Non-Mixer/sub:in-2"/>
+ <connection from="jack-keyboard:midi_out" to="a2j:FLUID Synth (3648) [130] (playback): Synth input port (3648:0)"/>
+ <connection from="qsynth:left" to="Non-Mixer/qsynth:in-1"/>
+ <connection from="qsynth:right" to="Non-Mixer/qsynth:in-2"/>
+ <connection from="LinuxSampler:0" to="Non-Mixer/piano:in-1"/>
+ <connection from="LinuxSampler:1" to="Non-Mixer/cello sfor:in-1"/>
+ <connection from="Helm:lv2_audio_out_1" to="Non-Mixer/helm:in-1"/>
+ <connection from="Non-Mixer/master:out-1" to="master_audio:in_1"/>
+ <connection from="Non-Mixer/master:out-2" to="master_audio:in_2"/>
+ <connection from="Helm:lv2_audio_out_2" to="Non-Mixer/helm:in-2"/>
+ <connection from="Hydrogen-midi:TX" to="Helm:lv2_events_in"/>
+ <connection from="a2j:VMPK Output [132] (capture): VMPK Output" to="a2j:FLUID Synth (3648) [130] (playback): Synth input port (3648:0)"/>
+ <connection from="Non-Sequencer:midi_out-1" to="a2j:FLUID Synth (3648) [130] (playback): Synth input port (3648:0)"/>
+ <connection from="jack-keyboard-01:midi_out" to="LinuxSampler:midi_in_0"/>
+ <connection from="Non-Sequencer:midi_out-2" to="LinuxSampler:midi_in_0"/>
+ <connection from="Non-Sequencer:midi_out-3" to="Helm:lv2_events_in"/>
+ <connection from="jack-keyboard:midi_out" to="LinuxSampler:midi_in_0"/>
+ <connection from="Non-Mixer/piano:out-1" to="AMS Stereo Mixer 2 channels:in1"/>
+ <connection from="Non-Mixer/piano:out-2" to="AMS Stereo Mixer 2 channels:in2"/>
+ <connection from="AMS Stereo Mixer 2 channels:outL" to="Non-Mixer/reverb_main:in-1"/>
+ <connection from="AMS Stereo Mixer 2 channels:outR" to="Non-Mixer/reverb_main:in-2"/>
+ <connection from="jack-keyboard-02:midi_out" to="a2j:FLUID Synth (3648) [130] (playback): Synth input port (3648:0)"/>
+ <connection from="jack-keyboard-01:midi_out" to="MIDI Chord:midiin"/>
+ <connection from="MIDI Chord:midiout" to="qmidiarp:in"/>
+ <connection from="qmidiarp:out 1" to="LinuxSampler:midi_in_0"/>
+ <connection from="qmidiarp:out 2" to="a2j:FLUID Synth (3648) [130] (playback): Synth input port (3648:0)"/>
+ <connection from="LinuxSampler:2" to="Non-Mixer/hiphopkit:in-1"/>
+ <connection from="Non-Sequencer:midi_out-1" to="Helm:lv2_events_in"/>
+ <connection from="Non-Sequencer:midi_out-3" to="a2j:FLUID Synth (3648) [130] (playback): Synth input port (3648:0)"/>
+ <connection from="wmic:capture_1" to="master_audio:in_1"/>
+ <connection from="Non-Mixer/hydro:out-1" to="Calf Studio Gear:Transient Designer In #1"/>
+ <connection from="Non-Mixer/hydro:out-2" to="Calf Studio Gear:Transient Designer In #2"/>
+ <connection from="Calf Studio Gear:Limiter Out #1" to="jamin:in_L"/>
+ <connection from="Calf Studio Gear:Limiter Out #2" to="jamin:in_R"/>
+ <connection from="jamin:a.master.out_L" to="K20/RMS Meter (Stereo):inL"/>
+ <connection from="jamin:a.master.out_R" to="K20/RMS Meter (Stereo):inR"/>
+ <connection from="jamin:a.master.out_L" to="VU Meter (Stereo):inL"/>
+ <connection from="jamin:a.master.out_R" to="VU Meter (Stereo):inR"/>
+ <connection from="Calf Studio Gear:Bass Enhancer Out #1" to="Calf Studio Gear:Saturator In #1"/>
+ <connection from="Calf Studio Gear:Bass Enhancer Out #2" to="Calf Studio Gear:Saturator In #2"/>
+ <connection from="Calf Studio Gear:Saturator Out #1" to="Calf Studio Gear:Limiter In #1"/>
+ <connection from="Calf Studio Gear:Saturator Out #2" to="Calf Studio Gear:Limiter In #2"/>
+ <connection from="Hydrogen:out_L" to="Non-Mixer/hydro:in-1"/>
+ <connection from="Hydrogen:out_R" to="Non-Mixer/hydro:in-2"/>
+ <connection from="Non-Mixer/hydro:out-1" to="Calf Studio Gear:Bass Enhancer In #1"/>
+ <connection from="Non-Mixer/hydro:out-2" to="Calf Studio Gear:Bass Enhancer In #2"/>
+ <connection from="jack-keyboard:midi_out" to="Helm:lv2_events_in"/>
+ <connection from="a2j:VMPK Output [134] (capture): VMPK Output" to="LinuxSampler:midi_in_0"/>
+ <connection from="a2j:VMPK Output [132] (capture): VMPK Output" to="qmidiarp:in"/>
+ <connection from="a2j:VMPK Output [132] (capture): VMPK Output" to="LinuxSampler:midi_in_0"/>
+ <connection from="zita-mu1:mon_out1.L" to="SimpleScreenRecorder:in_1"/>
+ <connection from="zita-mu1:mon_out1.R" to="SimpleScreenRecorder:in_2"/>
+ <connection from="zita-mu1:mon_out2.L" to="headphones:playback_1"/>
+ <connection from="zita-mu1:mon_out2.R" to="headphones:playback_2"/>
+ <connection from="Non-Mixer/reverb_main:out-1" to="Matrix: Stereo to MS:left"/>
+ <connection from="Non-Mixer/reverb_main:out-2" to="Matrix: Stereo to MS:right"/>
+ <connection from="Matrix: Stereo to MS:mid" to="Calf Equalizer 12 Band:in_l"/>
+ <connection from="Matrix: Stereo to MS:side" to="Calf Equalizer 12 Band:in_r"/>
+ <connection from="zita-mu1:mon_out1.L" to="x42-dpl - Digital Peak Limiter Stereo:inL"/>
+ <connection from="zita-mu1:mon_out2.L" to="x42-dpl - Digital Peak Limiter Stereo:inL"/>
+ <connection from="zita-mu1:mon_out1.R" to="x42-dpl - Digital Peak Limiter Stereo:inR"/>
+ <connection from="zita-mu1:mon_out2.R" to="x42-dpl - Digital Peak Limiter Stereo:inR"/>
+ <connection from="x42-dpl - Digital Peak Limiter Stereo:outL" to="system:playback_1"/>
+ <connection from="x42-dpl - Digital Peak Limiter Stereo:outR" to="system:playback_2"/>
+ <connection from="x42-dpl - Digital Peak Limiter Stereo:outL" to="system:playback_4"/>
+ <connection from="alsa-jack.jackP.9580.109:out_000" to="system:playback_1"/>
+ <connection from="alsa-jack.jackP.9580.109:out_001" to="system:playback_2"/>
+ <connection from="zita-mu1:mon_out1.L" to="Fast Lookahead limiter:in_1"/>
+ <connection from="zita-mu1:mon_out1.R" to="Fast Lookahead limiter:in_2"/>
+ <connection from="Fast Lookahead limiter:out_1" to="system:playback_1"/>
+ <connection from="Fast Lookahead limiter:out_2" to="system:playback_2"/>
+ <connection from="Fast Lookahead limiter:out_1" to="system:playback_4"/>
+ <connection from="Non-Mixer/reverb_main:out-1" to="Crossfade (4 outs):inputLA"/>
+ <connection from="Non-Mixer/reverb_main:out-2" to="Crossfade (4 outs):inputRA"/>
+ <connection from="Non-Mixer/piano:out-1" to="Crossfade (4 outs):inputLB"/>
+ <connection from="Non-Mixer/piano:out-2" to="Crossfade (4 outs):inputRB"/>
+ <connection from="MIDI Step Sequencer8x8:midiout" to="MIDI Chord:midiin"/>
+ <connection from="qmidiarp:out 2" to="LinuxSampler:midi_in_0"/>
+ <connection from="Crossfade (4 outs):outputLA" to="jamin:in_L"/>
+ <connection from="Crossfade (4 outs):outputLB" to="jamin:in_L"/>
+ <connection from="Crossfade (4 outs):outputRA" to="jamin:in_R"/>
+ <connection from="Crossfade (4 outs):outputRB" to="jamin:in_R"/>
+ <connection from="Calf Equalizer 12 Band:out_l" to="Non-Mixer/master:in-1"/>
+ <connection from="Calf Equalizer 12 Band:out_r" to="Non-Mixer/master:in-2"/>
+ <connection from="Polyphone:output R" to="zita-mu1:in_4.R"/>
+ <connection from="zita-mu1:mon_out1.L" to="system:playback_1"/>
+ <connection from="zita-mu1:mon_out1.R" to="system:playback_2"/>
+ <connection from="zita-mu1:mon_out1.L" to="system:playback_4"/>
+ <connection from="qmidiarp:out 1" to="MIDI Strum:midiin"/>
+ <connection from="MIDI Strum:midiout" to="MIDI Enforce Scale:midiin"/>
+ <connection from="MIDI Enforce Scale:midiout" to="LinuxSampler:midi_in_0"/>
+ <connection from="MDA Limiter:left_out" to="Calf Equalizer 12 Band:in_l"/>
+ <connection from="MDA Limiter:right_out" to="Calf Equalizer 12 Band:in_r"/>
+ <connection from="Calf Multiband Limiter:out_r" to="Calf Equalizer 12 Band:in_r"/>
+ <connection from="jamin:a.master.out_R" to="Calf Multiband Limiter:in_r"/>
+ <connection from="jamin:a.master.out_L" to="Calf Multiband Limiter:in_l"/>
+ <connection from="Calf Multiband Limiter:out_l" to="Calf Equalizer 12 Band:in_l"/>
+ <connection from="Polyphone:output R" to="zita-mu1:in_4.L"/>
+ <connection from="a2j:VMPK Output [136] (capture): VMPK Output" to="a2j:Polyphone [135] (playback): RtMidi Input"/>
+ <connection from="Mixxx:out_2" to="Non-Mixer/mixxx:in-1"/>
+ <connection from="Mixxx:out_3" to="Non-Mixer/mixxx:in-2"/>
+ <connection from="zita-lrx:out-L.high" to="Non-Mixer (crossover):high/in-1"/>
+ <connection from="zita-lrx:out-L.low" to="Non-Mixer (crossover):low/in-1"/>
+ <connection from="zita-lrx:out-L.mid" to="Non-Mixer (crossover):mid/in-1"/>
+ <connection from="zita-lrx:out-L.sub" to="Non-Mixer (crossover):sub/in-1"/>
+ <connection from="zita-lrx:out-R.high" to="Non-Mixer (crossover):high/in-2"/>
+ <connection from="zita-lrx:out-R.low" to="Non-Mixer (crossover):low/in-2"/>
+ <connection from="zita-lrx:out-R.mid" to="Non-Mixer (crossover):mid/in-2"/>
+ <connection from="zita-lrx:out-R.sub" to="Non-Mixer (crossover):sub/in-2"/>
+ <connection from="Hydrogen:out_L" to="Non-Mixer (percussion):hydro/in-1"/>
+ <connection from="Hydrogen:out_R" to="Non-Mixer (percussion):hydro/in-2"/>
+ <connection from="Helm:lv2_audio_out_1" to="Non-Mixer (synths):helm/in-1"/>
+ <connection from="Non-Mixer (percussion):hiphopkit/aux-A/out-1" to="Non-Mixer/reverb_main:in-1"/>
+ <connection from="Non-Mixer (strings):cello sfor/aux-A/out-1" to="Non-Mixer/reverb_main:in-1"/>
+ <connection from="Non-Mixer (percussion):hydro/aux-A/out-2" to="Non-Mixer (busses):percussion_bus/in-2"/>
+ <connection from="qmidiarp:out 2" to="Helm:lv2_events_in"/>
+ <connection from="MIDI Strum:midiout" to="MIDI Chord:midiin"/>
+ <connection from="qmidiarp:out 1" to="MIDI Enforce Scale:midiin"/>
+ <connection from="Sequencer:out" to="MIDI Strum:midiin"/>
+ <connection from="Non-Mixer (synths):helm/aux-A/out-1" to="Non-Mixer/reverb_main:in-1"/>
+ <connection from="Non-Mixer (synths):helm/aux-A/out-2" to="Non-Mixer/reverb_main:in-2"/>
+ <connection from="zita-mu1:mon_out2.L" to="SimpleScreenRecorder:in_1"/>
+ <connection from="zita-mu1:mon_out2.R" to="SimpleScreenRecorder:in_2"/>
+ <connection from="Calf Studio Gear:Equalizer 12 Band Out #1" to="jkmeter:in-1"/>
+ <connection from="Calf Studio Gear:Equalizer 12 Band Out #2" to="jkmeter:in-2"/>
+ <connection from="Calf Studio Gear:Equalizer 12 Band Out #1" to="zita-lrx:inp-L"/>
+ <connection from="Calf Studio Gear:Equalizer 12 Band Out #2" to="zita-lrx:inp-R"/>
+ <connection from="Non-Mixer/reverb_main:out-1" to="Calf Studio Gear:Equalizer 12 Band In #1"/>
+ <connection from="Non-Mixer/reverb_main:out-2" to="Calf Studio Gear:Equalizer 12 Band In #2"/>
+ <connection from="Mixxx:out_0" to="Non-Mixer/mixxx:in-1"/>
+ <connection from="Mixxx:out_1" to="Non-Mixer/mixxx:in-2"/>
+ <connection from="usbmic:capture_1" to="Non-Mixer/usbmic:in-1"/>
+ <connection from="Non-Mixer/usbmic:aux-A/out-1" to="Non-Mixer (effects):fx01/in-1"/>
+ <connection from="Non-Mixer/usbmic:aux-B/out-1" to="japa:in_1"/>
+ <connection from="Non-Mixer/usbmic:aux-B/out-1" to="jnoisemeter:in_1"/>
+ <connection from="jnoisemeter:out" to="japa:in_2"/>
+ <connection from="Non-Mixer (effects):fx01/aux-A/out-1" to="Non-Mixer (effects):fx02/in-1"/>
+ <connection from="Non-Mixer (effects):fx01/aux-A/out-2" to="Non-Mixer (effects):fx03/in-1"/>
+ <connection from="Non-Mixer (reverb):reverb01/out-1" to="Crossfade:inputLA"/>
+ <connection from="Non-Mixer (reverb):reverb01/out-2" to="Crossfade:inputRA"/>
+ <connection from="Non-Mixer (reverb):reverb02/out-1" to="Crossfade:inputLB"/>
+ <connection from="Non-Mixer (reverb):reverb02/out-2" to="Crossfade:inputRB"/>
+ <connection from="Crossfade:outputL" to="Calf Studio Gear:Equalizer 12 Band In #1"/>
+ <connection from="Crossfade:outputR" to="Calf Studio Gear:Equalizer 12 Band In #2"/>
+ <connection from="Non-Mixer (effects):fx02/out-1" to="Non-Mixer (busses):fx_bus/in-1"/>
+ <connection from="Non-Mixer (effects):fx03/out-1" to="Non-Mixer (busses):fx_bus/in-1"/>
+ <connection from="Non-Mixer (effects):fx01/out-1" to="Non-Mixer (busses):fx_bus/in-1"/>
+ <connection from="PulseAudio JACK Sink:front-left" to="jamin:in_L"/>
+ <connection from="PulseAudio JACK Sink:front-right" to="jamin:in_R"/>
+ <connection from="jamin:a.master.out_L" to="zita-mu1:in_1.L"/>
+ <connection from="jamin:a.master.out_R" to="zita-mu1:in_1.R"/>
+ <connection from="PulseAudio JACK Sink:front-left" to="zita-mu1:in_2.L"/>
+ <connection from="PulseAudio JACK Sink:front-right" to="zita-mu1:in_2.R"/>
+ <connection from="LinuxSampler:0" to="Non-Mixer (keys):piano/in-1"/>
+ <connection from="Non-Mixer (keys):piano/out-1" to="jamin:in_L"/>
+ <connection from="Non-Mixer (keys):piano/out-2" to="jamin:in_R"/>
+</RAY-JACKPATCH>

@@ -1,0 +1,10 @@
+{
+	Mixer_Strip 0xBD create :name "reverb01" :width "narrow" :tab "signal" :color 3338600448 :gain_mode 0 :mute_mode 0 :group 0x0 :auto_input "" :manual_connection 0
+	Chain 0xBE create :strip 0xBD :tab "chain"
+	JACK_Module 0xBF create :parameter_values "0.000000:8.000000" :is_default 1 :chain 0xBE :active 1
+	Plugin_Module 0x286 create :lv2_plugin_uri "http://github.com/blablack/ams-lv2/stereomixer_8ch" :plugin_ins 8 :plugin_outs 2 :parameter_values "0.800000:0.000000:0.000000:0.800000:1.000000:0.000000:0.000000:0.800000:1.000000:0.000000:0.000000:0.800000:0.000000:0.000000:0.000000:0.800000:0.000000:0.000000:0.000000:0.800000:0.000000:0.000000:0.000000:0.800000:0.000000:0.000000:0.000000:0.800000:0.000000:0.000000:0.000000:0.800000:0.000000" :is_default 0 :chain 0xBE :active 1
+	Plugin_Module 0x287 create :plugin_id 3701 :plugin_ins 2 :plugin_outs 2 :parameter_values "0.051000:170.000000:8.000000:5.900000:7000.000000:250.000000:-2.000000:3400.000000:0.500000:0.524823" :is_default 0 :chain 0xBE :active 1
+	Gain_Module 0xC0 create :parameter_values "-3.000000:0.000000" :is_default 1 :chain 0xBE :active 1
+	Meter_Module 0xC1 create :is_default 1 :chain 0xBE :active 1
+	JACK_Module 0xC2 create :parameter_values "2.000000:0.000000" :is_default 1 :chain 0xBE :active 1
+}

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE RAYSESSION>
+<RAYSESSION VERSION="0.8.0" name="number003">
+ <Clients>
+  <client launched="1" name="JACK Connexions" executable="ray-jackpatch" id="patch" icon="curve-connector"/>
+  <client launched="1" name="patchage" executable="patchage" id="patchage_2" icon="patchage"/>
+  <client launched="1" name="zita-mu1" executable="zita-mu1" id="z_mu1" icon="zita-mu1"/>
+ </Clients>
+ <RemovedClients>
+  <client name="Ray Proxy" executable="ray-proxy" id="patchage" icon="patchage"/>
+ </RemovedClients>
+ <Windows>
+  <window name="Patchage" class="patchage.Patchage" desktop="0"/>
+ </Windows>
+</RAYSESSION>
