@@ -1,0 +1,161 @@
+<RAY-JACKPATCH>
+ <connection from="jamin:a.master.out_L" to="system:playback_1"/>
+ <connection from="jamin:a.master.out_L" to="headphones:playback_1"/>
+ <connection from="jamin:a.master.out_R" to="system:playback_2"/>
+ <connection from="jamin:a.master.out_R" to="headphones:playback_2"/>
+ <connection from="gx_head_amp:out_0" to="gx_head_fx:in_0"/>
+ <connection from="seq64:system midi_playback_1" to="system:midi_playback_1"/>
+ <connection from="seq64:a2j Midi Through [14] (playback): Midi Through Port-0" to="a2j:Midi Through [14] (playback): Midi Through Port-0"/>
+ <connection from="seq64:Helm lv2_events_in" to="Helm:lv2_events_in"/>
+ <connection from="seq64:gx_head_amp midi_in_1" to="gx_head_amp:midi_in_1"/>
+ <connection from="seq64:a2j sooperlooper [131] (playback): sooperlooper" to="a2j:sooperlooper [131] (playback): sooperlooper"/>
+ <connection from="seq64:system midi_playback_3" to="system:midi_playback_3"/>
+ <connection from="Non-Mixer (percussions):nepal/out-1" to="Non-Mixer (busses):percussions/in-1"/>
+ <connection from="Non-Mixer (percussions):gtownstomps/out-1" to="Non-Mixer (busses):percussions/in-1"/>
+ <connection from="Non-Mixer (percussions):introkit/out-1" to="Non-Mixer (busses):percussions/in-1"/>
+ <connection from="Non-Mixer (rthyms):fender_pick_full/out-1" to="Non-Mixer (busses):rhythms/in-1"/>
+ <connection from="Non-Mixer/toambdec:out-1" to="ambdec:in.0"/>
+ <connection from="Non-Mixer/toambdec:out-2" to="ambdec:in.1"/>
+ <connection from="Non-Mixer/toambdec:out-3" to="ambdec:in.2"/>
+ <connection from="Non-Mixer/toambdec:out-4" to="ambdec:in.3"/>
+ <connection from="Helm:lv2_audio_out_1" to="Non-Mixer/helm:in-1"/>
+ <connection from="Helm:lv2_audio_out_2" to="Non-Mixer/helm:in-2"/>
+ <connection from="ambdec:out_L-1" to="jamin:in_L"/>
+ <connection from="ambdec:out_R-1" to="jamin:in_R"/>
+ <connection from="system:capture_1" to="gx_head_amp:in_0"/>
+ <connection from="Mixxx:out_0" to="Non-Mixer/mixxx:in-1"/>
+ <connection from="Mixxx:out_1" to="Non-Mixer/mixxx:in-2"/>
+ <connection from="LinuxSampler:0" to="Non-Mixer (percussions):nepal/in-1"/>
+ <connection from="LinuxSampler:1" to="Non-Mixer (percussions):gtownstomps/in-1"/>
+ <connection from="LinuxSampler:2" to="Non-Mixer (percussions):introkit/in-1"/>
+ <connection from="LinuxSampler:3" to="Non-Mixer (rthyms):fender_pick_full/in-1"/>
+ <connection from="LinuxSampler:4" to="Non-Mixer (keys):piano/in-1"/>
+ <connection from="LinuxSampler:5" to="Non-Mixer (keys):piano/in-2"/>
+ <connection from="gx_head_fx:out_0" to="Non-Mixer/guitarix:in-1"/>
+ <connection from="gx_head_fx:out_1" to="Non-Mixer/guitarix:in-2"/>
+ <connection from="seq64:LinuxSampler midi_in_0" to="LinuxSampler:midi_in_0"/>
+ <connection from="Non-Mixer (busses):percussions/out-1" to="Non-Mixer/toambdec:in-1"/>
+ <connection from="Non-Mixer (busses):percussions/out-2" to="Non-Mixer/toambdec:in-2"/>
+ <connection from="Non-Mixer (busses):percussions/out-3" to="Non-Mixer/toambdec:in-3"/>
+ <connection from="Non-Mixer (busses):percussions/out-4" to="Non-Mixer/toambdec:in-4"/>
+ <connection from="Non-Mixer (busses):rhythms/out-1" to="Non-Mixer/toambdec:in-1"/>
+ <connection from="Non-Mixer (busses):rhythms/out-2" to="Non-Mixer/toambdec:in-2"/>
+ <connection from="Non-Mixer (busses):rhythms/out-3" to="Non-Mixer/toambdec:in-3"/>
+ <connection from="Non-Mixer (busses):rhythms/out-4" to="Non-Mixer/toambdec:in-4"/>
+ <connection from="Non-Mixer (keys):piano/out-1" to="Non-Mixer/toambdec:in-1"/>
+ <connection from="Non-Mixer (keys):piano/out-2" to="Non-Mixer/toambdec:in-2"/>
+ <connection from="Non-Mixer (keys):piano/out-3" to="Non-Mixer/toambdec:in-3"/>
+ <connection from="Non-Mixer (keys):piano/out-4" to="Non-Mixer/toambdec:in-4"/>
+ <connection from="Non-Mixer/mixxx:out-1" to="Non-Mixer/toambdec:in-1"/>
+ <connection from="Non-Mixer/guitarix:out-1" to="Non-Mixer/toambdec:in-1"/>
+ <connection from="Non-Mixer/mixxx:out-2" to="Non-Mixer/toambdec:in-2"/>
+ <connection from="Non-Mixer/guitarix:out-2" to="Non-Mixer/toambdec:in-2"/>
+ <connection from="Non-Mixer/mixxx:out-3" to="Non-Mixer/toambdec:in-3"/>
+ <connection from="Non-Mixer/guitarix:out-3" to="Non-Mixer/toambdec:in-3"/>
+ <connection from="Non-Mixer/mixxx:out-4" to="Non-Mixer/toambdec:in-4"/>
+ <connection from="Non-Mixer/guitarix:out-4" to="Non-Mixer/toambdec:in-4"/>
+ <connection from="jack-keyboard:midi_out" to="Helm:lv2_events_in"/>
+ <connection from="Non-Mixer/toambdec:out-1" to="jkmeter:in-1"/>
+ <connection from="Non-Mixer/toambdec:out-2" to="jkmeter:in-2"/>
+ <connection from="Non-Mixer/toambdec:out-3" to="jkmeter:in-3"/>
+ <connection from="Non-Mixer/toambdec:out-4" to="jkmeter:in-4"/>
+ <connection from="jamin:a.master.out_L" to="jkmeter-01:in-1"/>
+ <connection from="jamin:a.master.out_R" to="jkmeter-01:in-2"/>
+ <connection from="jamin:a.master.out_L" to="jack_capture:input1"/>
+ <connection from="jamin:a.master.out_R" to="jack_capture:input2"/>
+ <connection from="qmidiarp:out 1" to="Helm:lv2_events_in"/>
+ <connection from="LinuxSampler:6" to="Non-Mixer (percussions):introkit/in-1"/>
+ <connection from="ambdec:out_L-2" to="jamin:in_L"/>
+ <connection from="ambdec:out_L-3" to="jamin:in_L"/>
+ <connection from="ambdec:out_R-2" to="jamin:in_R"/>
+ <connection from="ambdec:out_R-3" to="jamin:in_R"/>
+ <connection from="zita-rev1:out.W" to="Non-Mixer/toambdec:in-1"/>
+ <connection from="zita-rev1:out.X" to="Non-Mixer/toambdec:in-2"/>
+ <connection from="zita-rev1:out.Y" to="Non-Mixer/toambdec:in-3"/>
+ <connection from="zita-rev1:out.Z" to="Non-Mixer/toambdec:in-4"/>
+ <connection from="Non-Mixer/helm:early reverb/out-1" to="japa:in_1"/>
+ <connection from="Non-Mixer/helm:early reverb/out-2" to="japa:in_2"/>
+ <connection from="Non-Mixer/helm:early reverb/out-3" to="japa:in_3"/>
+ <connection from="Non-Mixer/helm:late reverb/out-1" to="japa:in_4"/>
+ <connection from="a2j:VMPK Output [133] (capture): VMPK Output" to="LinuxSampler:midi_in_0"/>
+ <connection from="jack-keyboard-01:midi_out" to="seq64:a2j Midi Through [14] (capture): Midi Through Port-0"/>
+ <connection from="zita-rev1:out.L" to="Calf Studio Gear:Equalizer 12 Band In #1"/>
+ <connection from="zita-rev1:out.R" to="Calf Studio Gear:Equalizer 12 Band In #2"/>
+ <connection from="Calf Studio Gear:Equalizer 12 Band Out #1" to="zita-lrx:inp-L"/>
+ <connection from="Calf Studio Gear:Equalizer 12 Band Out #2" to="zita-lrx:inp-R"/>
+ <connection from="zita-lrx:out-L.high" to="Non-Mixer (masteroutcomps):high/in-1"/>
+ <connection from="zita-lrx:out-R.high" to="Non-Mixer (masteroutcomps):high/in-2"/>
+ <connection from="zita-lrx:out-L.low" to="Non-Mixer (masteroutcomps):low/in-1"/>
+ <connection from="zita-lrx:out-R.low" to="Non-Mixer (masteroutcomps):low/in-2"/>
+ <connection from="zita-lrx:out-L.mid" to="Non-Mixer (masteroutcomps):mid/in-1"/>
+ <connection from="zita-lrx:out-R.mid" to="Non-Mixer (masteroutcomps):mid/in-2"/>
+ <connection from="zita-lrx:out-L.sub" to="Non-Mixer (masteroutcomps):sub/in-1"/>
+ <connection from="zita-lrx:out-R.sub" to="Non-Mixer (masteroutcomps):sub/in-2"/>
+ <connection from="Non-Mixer (masteroutcomps):low/out-1" to="Non-Mixer/master:in-1"/>
+ <connection from="Non-Mixer (masteroutcomps):low/out-2" to="Non-Mixer/master:in-2"/>
+ <connection from="Non-Mixer (masteroutcomps):mid/out-1" to="Non-Mixer/master:in-1"/>
+ <connection from="Non-Mixer (masteroutcomps):mid/out-2" to="Non-Mixer/master:in-2"/>
+ <connection from="Non-Mixer (masteroutcomps):high/out-1" to="Non-Mixer/master:in-1"/>
+ <connection from="Non-Mixer (masteroutcomps):high/out-2" to="Non-Mixer/master:in-2"/>
+ <connection from="Non-Mixer (masteroutcomps):sub/out-1" to="Non-Mixer/master:in-1"/>
+ <connection from="Non-Mixer (masteroutcomps):sub/out-2" to="Non-Mixer/master:in-2"/>
+ <connection from="Non-Mixer/master:out-1" to="jkmeter-01:in-1"/>
+ <connection from="Non-Mixer/master:out-2" to="jkmeter-01:in-2"/>
+ <connection from="Non-Mixer/master:out-1" to="system:playback_1"/>
+ <connection from="Non-Mixer/master:out-1" to="headphones:playback_1"/>
+ <connection from="Non-Mixer/master:out-2" to="system:playback_2"/>
+ <connection from="Non-Mixer/master:out-2" to="headphones:playback_2"/>
+ <connection from="ambdec:out_L-1" to="zita-rev1:in.L"/>
+ <connection from="ambdec:out_L-2" to="zita-rev1:in.L"/>
+ <connection from="ambdec:out_L-3" to="zita-rev1:in.L"/>
+ <connection from="ambdec:out_R-1" to="zita-rev1:in.R"/>
+ <connection from="ambdec:out_R-2" to="zita-rev1:in.R"/>
+ <connection from="ambdec:out_R-3" to="zita-rev1:in.R"/>
+ <connection from="Non-Mixer/master:out-1" to="SimpleScreenRecorder:in_1"/>
+ <connection from="Non-Mixer/master:out-2" to="SimpleScreenRecorder:in_2"/>
+ <connection from="MIDI Step Sequencer8x8:midiout" to="LinuxSampler:midi_in_0"/>
+ <connection from="jack-keyboard-02:midi_out" to="Helm:lv2_events_in"/>
+ <connection from="jack-keyboard-01:midi_out" to="LinuxSampler:midi_in_0"/>
+ <connection from="Non-Mixer/master:out-1" to="master_audio:in_1"/>
+ <connection from="Non-Mixer/master:out-2" to="master_audio:in_2"/>
+ <connection from="Polyphone:output L" to="zita-rev1:in.L"/>
+ <connection from="Polyphone:output R" to="zita-rev1:in.R"/>
+ <connection from="LinuxSampler:7" to="Non-Mixer (percussions):vintage/in-1"/>
+ <connection from="Non-Mixer (percussions):vintage/out-1" to="Non-Mixer (busses):percussions/in-1"/>
+ <connection from="usbmic:capture_1" to="Non-Mixer/usbmic:in-1"/>
+ <connection from="Non-Mixer/usbmic:out-1" to="gx_head_amp:in_0"/>
+ <connection from="Non-Mixer (percussions):basement/out-1" to="Non-Mixer (busses):percussions/in-1"/>
+ <connection from="LinuxSampler:8" to="Non-Mixer (percussions):basement/in-1"/>
+ <connection from="LinuxSampler:9" to="Non-Mixer (synths):sma/in-1"/>
+ <connection from="Non-Mixer (synths):qsynth/out-1" to="Non-Mixer (busses):synths/in-1"/>
+ <connection from="Non-Mixer (synths):qsynth/out-2" to="Non-Mixer (busses):synths/in-2"/>
+ <connection from="Non-Mixer (synths):sma/out-1" to="Non-Mixer (busses):synths/in-1"/>
+ <connection from="Non-Mixer (synths):sma/out-1" to="Non-Mixer (busses):synths/in-2"/>
+ <connection from="Non-Mixer (busses):synths/out-1" to="Non-Mixer/toambdec:in-1"/>
+ <connection from="Non-Mixer (busses):synths/out-2" to="Non-Mixer/toambdec:in-2"/>
+ <connection from="Non-Mixer (busses):synths/out-3" to="Non-Mixer/toambdec:in-3"/>
+ <connection from="Non-Mixer (busses):synths/out-4" to="Non-Mixer/toambdec:in-4"/>
+ <connection from="qsynth:right" to="Non-Mixer (synths):qsynth/in-1"/>
+ <connection from="qsynth:left" to="Non-Mixer (synths):qsynth/in-2"/>
+ <connection from="Non-Mixer (synths):helm/out-1" to="Non-Mixer/toambdec:in-1"/>
+ <connection from="Non-Mixer (synths):helm/out-2" to="Non-Mixer/toambdec:in-2"/>
+ <connection from="Non-Mixer (synths):helm/out-3" to="Non-Mixer/toambdec:in-3"/>
+ <connection from="Non-Mixer (synths):helm/out-4" to="Non-Mixer/toambdec:in-4"/>
+ <connection from="jack-keyboard-02:midi_out" to="qsynth:midi_00"/>
+ <connection from="Helm:lv2_audio_out_1" to="Non-Mixer (synths):helm/in-1"/>
+ <connection from="Helm:lv2_audio_out_2" to="Non-Mixer (synths):helm/in-2"/>
+ <connection from="REAPER:out1" to="Calf Studio Gear:Equalizer 12 Band In #1"/>
+ <connection from="REAPER:out2" to="Calf Studio Gear:Equalizer 12 Band In #2"/>
+ <connection from="PulseAudio JACK Sink:front-left" to="zita-rev1:in.L"/>
+ <connection from="PulseAudio JACK Sink:front-right" to="zita-rev1:in.R"/>
+ <connection from="LinuxSampler:10" to="Non-Mixer (winds):clarinet_full/in-1"/>
+ <connection from="LinuxSampler:11" to="Non-Mixer (winds):clarinet_full/in-2"/>
+ <connection from="Non-Mixer (winds):clarinet_full/out-1" to="Non-Mixer (busses):winds/in-1"/>
+ <connection from="Non-Mixer (winds):clarinet_full/out-2" to="Non-Mixer (busses):winds/in-2"/>
+ <connection from="Non-Mixer (busses):winds/out-1" to="Non-Mixer/toambdec:in-1"/>
+ <connection from="Non-Mixer (busses):winds/out-2" to="Non-Mixer/toambdec:in-2"/>
+ <connection from="Non-Mixer (busses):winds/out-3" to="Non-Mixer/toambdec:in-3"/>
+ <connection from="Non-Mixer (busses):winds/out-4" to="Non-Mixer/toambdec:in-4"/>
+ <connection from="a2j:VMPK Output [132] (capture): VMPK Output" to="LinuxSampler:midi_in_0"/>
+ <connection from="jack-keyboard-01:midi_out" to="Helm:lv2_events_in"/>
+</RAY-JACKPATCH>

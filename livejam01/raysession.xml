@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE RAYSESSION>
+<RAYSESSION VERSION="0.8.0" name="livejam01">
+ <Clients>
+  <client launched="1" name="JACK Connexions" executable="ray-jackpatch" id="patch" icon="curve-connector"/>
+  <client launched="1" name="patchage" executable="patchage" id="patchage" icon="patchage"/>
+  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="jalv_gtkmm" icon="Helm" label="Helm"/>
+  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="guitarix" icon="gx_head" label="Guitarix"/>
+  <client launched="1" name="Non-Mixer" executable="non-mixer" id="mixer" icon="non-mixer"/>
+  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="qsampler" icon="qsampler" label="Qsampler"/>
+  <client launched="1" name="Ray Proxy" executable="ray-proxy" id="seq64" icon="sequencer64" label="Sequencer64"/>
+  <client unignored_extensions=" .wav" launched="1" name="SooperLooper" executable="sooperlooper_nsm" id="sooperloop_2" icon="sooperlooper" arguments="--transport_workaround"/>
+ </Clients>
+ <RemovedClients>
+  <client unignored_extensions=" .wav" name="SooperLooper" executable="sooperlooper_nsm" id="sooperloop" icon="sooperlooper"/>
+ </RemovedClients>
+ <Windows/>
+</RAYSESSION>

@@ -1,0 +1,8 @@
+<RAY-JACKPATCH>
+ <connection to="jamin:in_L" from="PulseAudio JACK Sink:front-left"/>
+ <connection to="jamin:in_R" from="PulseAudio JACK Sink:front-right"/>
+ <connection to="system:playback_1" from="jamin:a.master.out_L"/>
+ <connection to="headphones:playback_1" from="jamin:a.master.out_L"/>
+ <connection to="system:playback_2" from="jamin:a.master.out_R"/>
+ <connection to="headphones:playback_2" from="jamin:a.master.out_R"/>
+</RAY-JACKPATCH>

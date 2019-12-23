@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE RAYSESSION>
+<RAYSESSION name="livejam02" VERSION="0.8.0">
+ <Clients>
+  <client executable="ray-jackpatch" name="JACK Connexions" icon="curve-connector" id="patch" launched="1"/>
+  <client executable="patchage" name="patchage" icon="patchage" id="patchage" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="Helm" icon="Helm" id="jalv_gtkmm" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="Guitarix" icon="gx_head" id="guitarix" launched="0"/>
+  <client executable="non-mixer" name="Non-Mixer" icon="non-mixer" id="mixer" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="Qsampler" icon="qsampler" id="qsampler" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="Sequencer64" icon="sequencer64" id="seq64" launched="1"/>
+  <client executable="sooperlooper_nsm" name="SooperLooper" unignored_extensions=" .wav" icon="sooperlooper" id="sooperloop_2" launched="0" arguments="--transport_workaround"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="jconvolvermaeshow" icon="jconvolver" id="jconvolver" launched="0"/>
+  <client executable="ambdec" name="ambdec" icon="ambdec" id="ambdec" launched="1"/>
+  <client executable="mixxx" name="mixxx" icon="mixxx" id="mixxx" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="qmidiarp" icon="qmidiarp" id="qmidiarp" launched="1"/>
+  <client executable="zita-rev1" name="zita-rev1" icon="zita-rev1" id="z_rev1_2" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="Calf JACK Host" icon="calf" id="calf" launched="1"/>
+  <client executable="ray-proxy" name="Ray Proxy" label="zita-lrx" icon="zita-lrx" id="z_lrx" launched="1"/>
+ </Clients>
+ <RemovedClients>
+  <client executable="sooperlooper_nsm" name="SooperLooper" unignored_extensions=" .wav" icon="sooperlooper" id="sooperloop"/>
+  <client executable="ray-proxy" name="Ray Proxy" icon="zita-rev1" id="z_rev1"/>
+ </RemovedClients>
+ <Windows>
+  <window name="Patchage" desktop="0" class="patchage.Patchage"/>
+  <window name="SooperLooper v 1.7.3" desktop="0" class="slgui.Slgui"/>
+  <window name="livejam02.lscp — Qsampler" desktop="0" class="qsampler.Qsampler"/>
+  <window name="jalv.gtkmm" desktop="2" class="jalv.gtkmm.Jalv.gtkmm"/>
+  <window name="Guitarix: gx_head" desktop="0" class="guitarix.Guitarix"/>
+  <window name="Non Mixer" desktop="0" class="Non-Mixer.Non-Mixer"/>
+  <window name="Mixxx 2.2.0" desktop="1" class="mixxx.Mixxx"/>
+  <window name="seq64 - /home/b08x/studio/library...onlight_sonata_EASYPNO.mid (192 ppqn)" desktop="3" class="seq64.Seq64"/>
+  <window name="Mixer - helm - Spatializer" desktop="0" class="Non-Mixer.Non-Mixer"/>
+  <window name="/home/b08x/studio/sessions/livejam02/livejam02.qmidiarp/livejam02.qmax - QMidiArp (0)" desktop="2" class="qmidiarp.qmidiarp"/>
+  <window name="seq64 #3 &quot;Violoncello 70&quot; (192 ppqn)" desktop="3" class="seq64.Seq64"/>
+  <window name="Sequencer64 - Song Editor 2" desktop="3" class="seq64.Seq64"/>
+  <window name="seq64 #6 &quot;Piano 70&quot; (192 ppqn)" desktop="3" class="seq64.Seq64"/>
+  <window name="seq64 #7 &quot;Untitled 1&quot; (192 ppqn)" desktop="3" class="seq64.Seq64"/>
+  <window name="Mixer - piano - Spatializer" desktop="0" class="Non-Mixer.Non-Mixer"/>
+  <window name="Spatialization Console" desktop="0" class="Non-Mixer.Non-Mixer"/>
+  <window name="dial up modem | Mixxx 2.2.0" desktop="1" class="mixxx.Mixxx"/>
+  <window name="kathakaku silliska | Mixxx 2.2.0" desktop="1" class="mixxx.Mixxx"/>
+  <window name="Mixer - usbmic - Plugin : Simple amplifier" desktop="0" class="Non-Mixer.Non-Mixer"/>
+  <window name="radio tuning | Mixxx 2.2.0" desktop="1" class="mixxx.Mixxx"/>
+  <window name="Host - session: Calf Studio Gear.calfjackhost lapbot Calf JACK Host - session: Calf Studio Gear" desktop="4" class="Calf"/>
+  <window name="seq64 - livejam02.midi (192 ppqn)" desktop="0" class="seq64.Seq64"/>
+  <window name="Calf - Equalizer 12 Band" desktop="4" class="calfjackhost.Calfjackhost"/>
+ </Windows>
+</RAYSESSION>
