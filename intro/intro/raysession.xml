@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE RAYSESSION>
+<RAYSESSION VERSION="0.8.0" name="intro">
+ <Clients>
+  <client executable="ray-jackpatch" launched="1" id="patch" name="JACK Connexions" icon="curve-connector"/>
+  <client executable="zita-mu1" launched="1" id="z_mu1" name="zita-mu1" icon="zita-mu1"/>
+  <client label="Qsampler" executable="ray-proxy" launched="1" id="qsampler" name="Ray Proxy" icon="qsampler"/>
+ </Clients>
+ <RemovedClients/>
+ <Windows>
+  <window class="qsampler.Qsampler" desktop="0" name="/home/b08x/studio/sessions/intro/intro.lscp — Qsampler"/>
+ </Windows>
+</RAYSESSION>

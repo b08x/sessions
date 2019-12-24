@@ -1,0 +1,14 @@
+<RAY-JACKPATCH>
+ <connection from="REAPER:out1" to="zita-mu1:in_1.L"/>
+ <connection from="REAPER:out2" to="zita-mu1:in_1.R"/>
+ <connection from="zita-mu1:mon_out1.L" to="system:playback_1"/>
+ <connection from="zita-mu1:mon_out1.R" to="system:playback_2"/>
+ <connection from="zita-mu1:mon_out1.L" to="system:playback_4"/>
+ <connection from="LinuxSampler:0" to="REAPER:in2"/>
+ <connection from="Euklid-02:lv2_midi_out" to="LinuxSampler:midi_in_0"/>
+ <connection from="LinuxSampler:1" to="REAPER:in3"/>
+ <connection from="qsynth:left" to="REAPER:in4"/>
+ <connection from="qsynth:right" to="REAPER:in5"/>
+ <connection from="Euklid-04:lv2_midi_out" to="a2j:FLUID Synth (23739) [131] (playback): Synth input port (23739:0)"/>
+ <connection from="Euklid:lv2_midi_out" to="a2j:FLUID Synth (23739) [131] (playback): Synth input port (23739:0)"/>
+</RAY-JACKPATCH>
