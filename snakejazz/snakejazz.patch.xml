@@ -1,0 +1,22 @@
+<RAY-JACKPATCH>
+ <connection from="zita-mu1:mon_out1.L" to="system:playback_1"/>
+ <connection from="zita-mu1:mon_out1.R" to="system:playback_2"/>
+ <connection from="zita-mu1:mon_out1.L" to="system:playback_4"/>
+ <connection from="qmidiarp:out 1" to="a2j:Midi Through [14] (playback): Midi Through Port-0"/>
+ <connection from="Euklid:lv2_midi_out" to="a2j:Midi Through [14] (playback): Midi Through Port-0"/>
+ <connection from="REAPER:out1" to="zita-mu1:in_1.L"/>
+ <connection from="REAPER:out2" to="zita-mu1:in_1.R"/>
+ <connection from="Sitala:out_3" to="REAPER:in1"/>
+ <connection from="Sitala:out_4" to="REAPER:in2"/>
+ <connection from="a2j:VMPK Output [133] (capture): VMPK Output" to="Petri-Foo:midi_input"/>
+ <connection from="jack-keyboard:midi_out" to="LinuxSampler:midi_in_0"/>
+ <connection from="qmidiarp:out 1" to="LinuxSampler:midi_in_0"/>
+ <connection from="Petri-Foo:out_left" to="zita-mu1:in_1.L"/>
+ <connection from="Petri-Foo:out_right" to="zita-mu1:in_1.R"/>
+ <connection from="jack-keyboard:midi_out" to="Petri-Foo:midi_input"/>
+ <connection from="a2j:VMPK Output [133] (capture): VMPK Output" to="REAPER:MIDI Input 1"/>
+ <connection from="PulseAudio JACK Sink:front-left" to="zita-mu1:in_2.L"/>
+ <connection from="PulseAudio JACK Sink:front-right" to="zita-mu1:in_2.R"/>
+ <connection from="LinuxSampler:0" to="REAPER:in1"/>
+ <connection from="Euklid:lv2_midi_out" to="LinuxSampler:midi_in_0"/>
+</RAY-JACKPATCH>

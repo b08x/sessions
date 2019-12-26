@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE RAYSESSION>
+<RAYSESSION name="snakejazz" VERSION="0.8.0">
+ <Clients>
+  <client launched="1" name="JACK Connexions" icon="curve-connector" id="patch" executable="ray-jackpatch"/>
+  <client launched="1" name="Ray Proxy" icon="reaper" id="reaper" label="reaper" executable="ray-proxy"/>
+  <client launched="0" name="patchage" icon="patchage" id="patchage" executable="patchage"/>
+  <client launched="1" name="Ray Proxy" icon="qsampler" id="qsampler" label="Qsampler" executable="ray-proxy"/>
+  <client launched="0" name="qsynth" icon="qsynth" id="qsynth" executable="qsynth"/>
+  <client launched="1" name="jalv.select" icon="jalv.select" id="jalv_selec" executable="jalv.select"/>
+  <client launched="1" name="Ray Proxy" icon="qmidiarp" id="qmidiarp" label="qmidiarp" executable="ray-proxy"/>
+  <client launched="1" name="zita-mu1" icon="zita-mu1" id="z_mu1" executable="zita-mu1"/>
+  <client launched="0" name="sitala" icon="sitala" id="sitala" executable="sitala"/>
+  <client launched="1" name="vmpk" icon="vmpk" id="vmpk" executable="vmpk"/>
+  <client launched="1" name="Petri-Foo" icon="petri-foo" id="petrifoo" executable="petri-foo"/>
+  <client launched="0" name="jack-keyboard" icon="jack-keyboard" id="keyboard" executable="jack-keyboard"/>
+  <client launched="1" name="Non-Mixer" icon="non-mixer" id="mixer" executable="non-mixer"/>
+ </Clients>
+ <RemovedClients/>
+ <Windows>
+  <window class="patchage.Patchage" desktop="0" name="Patchage"/>
+  <window class="ray-proxy.RaySession" desktop="0" name="Ray Proxy"/>
+  <window class="REAPER.REAPER" desktop="0" name="REAPER v6.02+dev1220 - EVALUATION LICENSE"/>
+  <window class="REAPER.REAPER" desktop="0" name="Mixer"/>
+  <window class="qsampler.Qsampler" desktop="0" name="snakejazz.lscp — Qsampler"/>
+  <window class="N/A" desktop="1" name="Element - default: Graph"/>
+  <window class="qsynth.Qsynth" desktop="0" name="Qsynth1 — Qsynth"/>
+  <window class="jalv.select.Jalv.select" desktop="0" name="LV2 plugs"/>
+  <window class="REAPER.REAPER" desktop="0" name="[unsaved project] - REAPER v6.02+dev1220 - EVALUATION LICENSE"/>
+  <window class="qmidiarp.qmidiarp" desktop="0" name="/home/b08x/studio/sessions/intro/snakejazz/snakejazz.qmidiarp/snakejazz.qmax - QMidiArp (0)"/>
+  <window class="N/A" desktop="0" name="Sitala - Untitled - Edited"/>
+  <window class="REAPER.REAPER" desktop="0" name="snakejazz [modified] - REAPER v6.02+dev1220 - EVALUATION LICENSE"/>
+  <window class="REAPER.REAPER" desktop="0" name="VST: EnergyVisualizer (IEM) (64ch) - Track 4 &quot;ambibus&quot; (folder) [5/5]"/>
+  <window class="REAPER.REAPER" desktop="0" name="VST: MultiEncoder (IEM) (64ch) - Track 4 &quot;ambibus&quot; (folder) [1/5]"/>
+  <window class="vmpk.Vmpk" desktop="0" name="Virtual MIDI Piano Keyboard"/>
+  <window class="petri-foo.Petri-foo" desktop="0" name="Petri-Foo"/>
+  <window class="jack-keyboard.Jack-keyboard" desktop="0" name="jack-keyboard"/>
+  <window class="qmidiarp.qmidiarp" desktop="0" name="/home/b08x/studio/sessions/snakejazz/snakejazz.qmidiarp/snakejazz.qmax - QMidiArp (0)"/>
+  <window class="REAPER.REAPER" desktop="0" name="VST: MultiEncoder (IEM) (64ch) - Track 6 &quot;ambibus&quot; (folder) [1/5]"/>
+  <window class="REAPER.REAPER" desktop="0" name="VST: FdnReverb (IEM) (64ch) - Track 6 &quot;ambibus&quot; (folder) [2/5]"/>
+  <window class="REAPER.REAPER" desktop="0" name="VST: EnergyVisualizer (IEM) (64ch) - Track 6 &quot;ambibus&quot; (folder) [5/5]"/>
+  <window class="REAPER.REAPER" desktop="0" name="snakejazz - REAPER v6.02+dev1220 - EVALUATION LICENSE"/>
+  <window class="REAPER.REAPER" desktop="0" name="FX: Track 5 &quot;speakers&quot;"/>
+  <window class="Non-Mixer.Non-Mixer" desktop="0" name="Non Mixer"/>
+ </Windows>
+</RAYSESSION>
