@@ -2,7 +2,7 @@
 <!DOCTYPE qmidiarpSession>
 <session version="0.6.6" name="snakejazz">
     <global>
-        <tempo>60</tempo>
+        <tempo>45</tempo>
         <settings>
             <midiControlEnabled>1</midiControlEnabled>
             <midiClockEnabled>0</midiClockEnabled>
@@ -31,18 +31,18 @@
                 <rangeMax>127</rangeMax>
             </input>
             <output>
-                <muted>1</muted>
+                <muted>0</muted>
                 <defer>1</defer>
                 <port>0</port>
-                <channel>0</channel>
+                <channel>3</channel>
             </output>
             <midiControllers/>
             <globalStores/>
             <pattern>
-                <pattern>&gt;&gt;(023)&gt;01</pattern>
-                <repeatMode>1</repeatMode>
-                <octaveMode>0</octaveMode>
-                <octaveLow>0</octaveLow>
+                <pattern>&gt;&gt;(01234)0(01234)0</pattern>
+                <repeatMode>4</repeatMode>
+                <octaveMode>2</octaveMode>
+                <octaveLow>-2</octaveLow>
                 <octaveHigh>0</octaveHigh>
                 <latchMode>0</latchMode>
             </pattern>
@@ -57,6 +57,88 @@
             </envelope>
         </Arp>
         <Seq name="1" inOutVisible="1">
+            <input>
+                <enableNoteOff>0</enableNoteOff>
+                <enableNote>0</enableNote>
+                <enableVelocity>0</enableVelocity>
+                <restartByKbd>0</restartByKbd>
+                <trigByKbd>0</trigByKbd>
+                <trigLegato>0</trigLegato>
+                <channel>16</channel>
+                <indexMin>0</indexMin>
+                <indexMax>127</indexMax>
+                <rangeMin>0</rangeMin>
+                <rangeMax>127</rangeMax>
+            </input>
+            <output>
+                <muted>0</muted>
+                <defer>1</defer>
+                <port>0</port>
+                <channel>3</channel>
+            </output>
+            <midiControllers/>
+            <globalStores/>
+            <display>
+                <vertical>0</vertical>
+            </display>
+            <seqParams>
+                <loopmode>0</loopmode>
+                <resolution>3</resolution>
+                <size>2</size>
+                <velocity>47</velocity>
+                <noteLength>33</noteLength>
+                <transp>0</transp>
+            </seqParams>
+            <muteMask>
+                <data>000001000001000001010000000000000000000000010000000000000001000000000000000000000000000000010000</data>
+            </muteMask>
+            <sequence>
+                <data>28313238353a3b3f2e3228324a4643403d3a393735322e2a2425242429242728292a254a4a4643403d3a393735322e2a</data>
+                <loopmarker>0</loopmarker>
+            </sequence>
+        </Seq>
+        <Seq name="2" inOutVisible="1">
+            <input>
+                <enableNoteOff>0</enableNoteOff>
+                <enableNote>1</enableNote>
+                <enableVelocity>1</enableVelocity>
+                <restartByKbd>0</restartByKbd>
+                <trigByKbd>0</trigByKbd>
+                <trigLegato>0</trigLegato>
+                <channel>16</channel>
+                <indexMin>0</indexMin>
+                <indexMax>127</indexMax>
+                <rangeMin>0</rangeMin>
+                <rangeMax>127</rangeMax>
+            </input>
+            <output>
+                <muted>0</muted>
+                <defer>1</defer>
+                <port>0</port>
+                <channel>4</channel>
+            </output>
+            <midiControllers/>
+            <globalStores/>
+            <display>
+                <vertical>0</vertical>
+            </display>
+            <seqParams>
+                <loopmode>0</loopmode>
+                <resolution>1</resolution>
+                <size>2</size>
+                <velocity>64</velocity>
+                <noteLength>83</noteLength>
+                <transp>-16</transp>
+            </seqParams>
+            <muteMask>
+                <data>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data>
+            </muteMask>
+            <sequence>
+                <data>25282b2f33383c40302e2e2c2c2c2927292a2b2d30293131302e2e2c2c2c292725282b2f33383c40302e2e2c2c2c2927292a2b2d30293131302e2e2c2c2c2927</data>
+                <loopmarker>0</loopmarker>
+            </sequence>
+        </Seq>
+        <Seq name="3" inOutVisible="1">
             <input>
                 <enableNoteOff>0</enableNoteOff>
                 <enableNote>1</enableNote>
@@ -74,7 +156,7 @@
                 <muted>1</muted>
                 <defer>1</defer>
                 <port>0</port>
-                <channel>0</channel>
+                <channel>1</channel>
             </output>
             <midiControllers/>
             <globalStores/>
@@ -83,23 +165,23 @@
             </display>
             <seqParams>
                 <loopmode>0</loopmode>
-                <resolution>2</resolution>
+                <resolution>3</resolution>
                 <size>2</size>
-                <velocity>65</velocity>
-                <noteLength>23</noteLength>
-                <transp>0</transp>
+                <velocity>64</velocity>
+                <noteLength>60</noteLength>
+                <transp>-1</transp>
             </seqParams>
             <muteMask>
-                <data>000000000000000000000000000000000000000000010000000000000001000000000000000000000000000000010000</data>
+                <data>000101000001000101000000010001010101010101010001010000000100000000010100000100010100000001000000</data>
             </muteMask>
             <sequence>
-                <data>423c252429352728292a254a4a4643403d3a393735322e2a2425242429242728292a254a4a4643403d3a393735322e2a</data>
+                <data>3c494949494944493a494a454b3a4c3c4d4d4d4d4d4d4b3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c</data>
                 <loopmarker>0</loopmarker>
             </sequence>
         </Seq>
     </modules>
     <GUI>
-        <windowState>000000ff00000000fd0000000200000002000003c3000001dcfc0100000004fc000000000000077e0000000000fffffffa000000000100000002fb0000000a004100720070003a00330100000000ffffffff0000000000000000fb0000000a004100720070003a00320100000000ffffffff0000000000000000fc000000000000077e0000000000fffffffa000000000100000006fb0000000a005300650071003a00330100000000ffffffff0000000000000000fb0000000a005300650071003a00340100000000ffffffff0000000000000000fb0000000a005300650071003a00350100000000ffffffff0000000000000000fb0000000a005300650071003a00360100000000ffffffff0000000000000000fb0000000a005300650071003a00370100000000ffffffff0000000000000000fb0000000a005300650071003a00380100000000ffffffff0000000000000000fc000000000000042b0000000000fffffffa000000000100000002fb0000000a004c0046004f003a00310100000000ffffffff0000000000000000fb0000000a005300650071003a00320100000000ffffffff0000000000000000fc00000000000003c3000002b500fffffffa000000010100000002fb0000000a004100720070003a00310100000000ffffffff0000024100fffffffb0000000a005300650071003a00310100000000ffffffff000002b500ffffff00000003000003c3000000a6fc0100000003fb000000120067006c006f006200530074006f0072006501000000000000011e0000011e00fffffffb0000001800670072006f006f0076006500570069006400670065007401000001240000015d0000015d00fffffffb00000012006c006f006700570069006400670065007401000002870000013c0000013c00ffffff000003c30000000000000004000000040000000800000008fc0000000100000002000000020000001600660069006c00650054006f006f006c0042006100720100000000ffffffff00000000000000000000001c0063006f006e00740072006f006c0054006f006f006c0042006100720100000094ffffffff0000000000000000</windowState>
+        <windowState>000000ff00000000fd000000020000000200000493000001dcfc0100000004fc000000000000077e0000000000fffffffa000000000100000002fb0000000a004100720070003a00330100000000ffffffff0000000000000000fb0000000a004100720070003a00320100000000ffffffff0000000000000000fc000000000000077e0000000000fffffffa000000000100000005fb0000000a005300650071003a00340100000000ffffffff0000000000000000fb0000000a005300650071003a00350100000000ffffffff0000000000000000fb0000000a005300650071003a00360100000000ffffffff0000000000000000fb0000000a005300650071003a00370100000000ffffffff0000000000000000fb0000000a005300650071003a00380100000000ffffffff0000000000000000fc000000000000042b0000000000fffffffa000000000100000001fb0000000a004c0046004f003a00310100000000ffffffff0000000000000000fc0000000000000493000002b500fffffffa000000010100000004fb0000000a004100720070003a00310100000000ffffffff0000024100fffffffb0000000a005300650071003a00310100000000ffffffff000002b500fffffffb0000000a005300650071003a00320100000000ffffffff000002b500fffffffb0000000a005300650071003a00330100000000ffffffff000002b500ffffff0000000300000493000000a6fc0100000003fb000000120067006c006f006200530074006f007200650100000000000001ee000001ee00fffffffb0000001800670072006f006f0076006500570069006400670065007401000001f40000015d0000015d00fffffffb00000012006c006f006700570069006400670065007401000003570000013c0000013c00ffffff000004930000000000000004000000040000000800000008fc0000000100000002000000020000001600660069006c00650054006f006f006c0042006100720100000000ffffffff00000000000000000000001c0063006f006e00740072006f006c0054006f006f006c0042006100720100000094ffffffff0000000000000000</windowState>
     </GUI>
     <globalstorage>
         <timeMode>0</timeMode>

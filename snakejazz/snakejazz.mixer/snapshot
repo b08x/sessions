@@ -1,11 +1,18 @@
 {
-	Mixer_Strip 0x1 create :name "Unnamed" :width "narrow" :tab "signal" :color 405001896 :gain_mode 0 :mute_mode 0 :group 0x0 :auto_input "" :manual_connection 0
+	Mixer_Strip 0x1 create :name "comb_splitter" :width "narrow" :tab "signal" :color 405001896 :gain_mode 0 :mute_mode 0 :group 0x0 :auto_input "" :manual_connection 0
 	Chain 0x2 create :strip 0x1 :tab "chain"
 	JACK_Module 0x3 create :parameter_values "0.000000:1.000000" :is_default 1 :chain 0x2 :active 1
 	Plugin_Module 0x7 create :lv2_plugin_uri "http://plugin.org.uk/swh-plugins/combSplitter" :plugin_ins 1 :plugin_outs 2 :parameter_values "172.000000" :is_default 0 :chain 0x2 :active 1
 	Gain_Module 0x4 create :parameter_values "0.000000:0.000000" :is_default 1 :chain 0x2 :active 1
 	Meter_Module 0x5 create :is_default 1 :chain 0x2 :active 1
 	JACK_Module 0x6 create :parameter_values "2.000000:0.000000" :is_default 1 :chain 0x2 :active 1
+	Mixer_Strip 0x13 create :name "freq_shift" :width "narrow" :tab "signal" :color 1100457494 :gain_mode 0 :mute_mode 0 :group 0x0 :auto_input "" :manual_connection 0
+	Chain 0x14 create :strip 0x13 :tab "chain"
+	JACK_Module 0x15 create :parameter_values "0.000000:1.000000" :is_default 1 :chain 0x14 :active 1
+	Plugin_Module 0x19 create :lv2_plugin_uri "http://plugin.org.uk/swh-plugins/bodeShifter" :plugin_ins 1 :plugin_outs 2 :parameter_values "0.000000" :is_default 0 :chain 0x14 :active 1
+	Gain_Module 0x16 create :parameter_values "0.000000:0.000000" :is_default 1 :chain 0x14 :active 1
+	Meter_Module 0x17 create :is_default 1 :chain 0x14 :active 1
+	JACK_Module 0x18 create :parameter_values "2.000000:0.000000" :is_default 1 :chain 0x14 :active 1
 	Mixer_Strip 0x8 create :name "Unnamed.1" :width "narrow" :tab "signal" :color 94387495 :gain_mode 0 :mute_mode 0 :group 0x0 :auto_input "" :manual_connection 0
 	Chain 0x9 create :strip 0x8 :tab "chain"
 	JACK_Module 0xA create :parameter_values "0.000000:1.000000" :is_default 1 :chain 0x9 :active 1
