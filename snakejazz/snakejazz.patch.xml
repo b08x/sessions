@@ -4,8 +4,6 @@
  <connection to="system:playback_4" from="zita-mu1:mon_out1.L"/>
  <connection to="a2j:Midi Through [14] (playback): Midi Through Port-0" from="qmidiarp:out 1"/>
  <connection to="a2j:Midi Through [14] (playback): Midi Through Port-0" from="Euklid:lv2_midi_out"/>
- <connection to="zita-mu1:in_1.L" from="REAPER:out1"/>
- <connection to="zita-mu1:in_1.R" from="REAPER:out2"/>
  <connection to="REAPER:in1" from="Sitala:out_3"/>
  <connection to="REAPER:in2" from="Sitala:out_4"/>
  <connection to="Petri-Foo:midi_input" from="a2j:VMPK Output [133] (capture): VMPK Output"/>
@@ -38,4 +36,8 @@
  <connection to="REAPER:in12" from="Hydrogen:out_L"/>
  <connection to="REAPER:in13" from="Hydrogen:out_R"/>
  <connection to="Petri-Foo:midi_input" from="jack-keyboard-01:midi_out"/>
+ <connection to="headphones:playback_1" from="zita-mu1:mon_out2.L"/>
+ <connection to="headphones:playback_2" from="zita-mu1:mon_out2.R"/>
+ <connection to="REAPER:in14" from="Polyphone:output L"/>
+ <connection to="REAPER:in15" from="Polyphone:output R"/>
 </RAY-JACKPATCH>

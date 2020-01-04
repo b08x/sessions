@@ -3,7 +3,7 @@
 <RAYSESSION name="snakejazz" VERSION="0.8.0">
  <Clients>
   <client id="patch" name="JACK Connexions" icon="curve-connector" launched="1" executable="ray-jackpatch"/>
-  <client id="reaper" name="Ray Proxy" icon="reaper" launched="1" executable="ray-proxy" label="reaper"/>
+  <client id="reaper" name="Ray Proxy" icon="reaper" launched="0" executable="ray-proxy" label="reaper"/>
   <client id="patchage" name="patchage" icon="patchage" launched="1" executable="patchage"/>
   <client id="qsampler" name="Ray Proxy" icon="qsampler" launched="1" executable="ray-proxy" label="Qsampler"/>
   <client id="qsynth" name="qsynth" icon="qsynth" launched="0" executable="qsynth"/>
