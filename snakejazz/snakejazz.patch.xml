@@ -9,12 +9,8 @@
  <connection to="Petri-Foo:midi_input" from="a2j:VMPK Output [133] (capture): VMPK Output"/>
  <connection to="LinuxSampler:midi_in_0" from="jack-keyboard:midi_out"/>
  <connection to="LinuxSampler:midi_in_0" from="qmidiarp:out 1"/>
- <connection to="zita-mu1:in_1.L" from="Petri-Foo:out_left"/>
- <connection to="zita-mu1:in_1.R" from="Petri-Foo:out_right"/>
  <connection to="Petri-Foo:midi_input" from="jack-keyboard:midi_out"/>
  <connection to="REAPER:MIDI Input 1" from="a2j:VMPK Output [133] (capture): VMPK Output"/>
- <connection to="zita-mu1:in_2.L" from="PulseAudio JACK Sink:front-left"/>
- <connection to="zita-mu1:in_2.R" from="PulseAudio JACK Sink:front-right"/>
  <connection to="REAPER:in1" from="LinuxSampler:0"/>
  <connection to="LinuxSampler:midi_in_0" from="Euklid:lv2_midi_out"/>
  <connection to="system:playback_1" from="zita-mu1:mon_out2.L"/>
@@ -38,6 +34,10 @@
  <connection to="Petri-Foo:midi_input" from="jack-keyboard-01:midi_out"/>
  <connection to="headphones:playback_1" from="zita-mu1:mon_out2.L"/>
  <connection to="headphones:playback_2" from="zita-mu1:mon_out2.R"/>
- <connection to="REAPER:in14" from="Polyphone:output L"/>
- <connection to="REAPER:in15" from="Polyphone:output R"/>
+ <connection to="zita-mu1:in_1.L" from="REAPER:out1"/>
+ <connection to="zita-mu1:in_1.R" from="REAPER:out2"/>
+ <connection to="REAPER:in15" from="Polyphone:output L"/>
+ <connection to="REAPER:in16" from="Polyphone:output R"/>
+ <connection to="REAPER:in15" from="PulseAudio JACK Sink:front-left"/>
+ <connection to="REAPER:in16" from="PulseAudio JACK Sink:front-right"/>
 </RAY-JACKPATCH>
