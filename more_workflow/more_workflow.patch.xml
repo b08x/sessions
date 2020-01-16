@@ -1,0 +1,82 @@
+<RAY-JACKPATCH>
+ <connection from="zita-mu1:mon_out1.L" to="system:playback_1"/>
+ <connection from="zita-mu1:mon_out1.R" to="system:playback_2"/>
+ <connection from="zita-mu1:mon_out1.L" to="system:playback_4"/>
+ <connection from="LinuxSampler:0" to="REAPER:in1"/>
+ <connection from="LinuxSampler:1" to="REAPER:in2"/>
+ <connection from="LinuxSampler:2" to="REAPER:in3"/>
+ <connection from="LinuxSampler:3" to="REAPER:in4"/>
+ <connection from="LinuxSampler:4" to="REAPER:in5"/>
+ <connection from="LinuxSampler:5" to="REAPER:in6"/>
+ <connection from="LinuxSampler:6" to="REAPER:in7"/>
+ <connection from="LinuxSampler:7" to="REAPER:in8"/>
+ <connection from="LinuxSampler:8" to="REAPER:in9"/>
+ <connection from="LinuxSampler:9" to="REAPER:in10"/>
+ <connection from="LinuxSampler:10" to="REAPER:in11"/>
+ <connection from="LinuxSampler:11" to="REAPER:in12"/>
+ <connection from="LinuxSampler:12" to="REAPER:in13"/>
+ <connection from="LinuxSampler:13" to="REAPER:in14"/>
+ <connection from="LinuxSampler:14" to="REAPER:in15"/>
+ <connection from="LinuxSampler:15" to="REAPER:in16"/>
+ <connection from="jack-keyboard:midi_out" to="LinuxSampler:midi_in_0"/>
+ <connection from="qmidiarp:out 1" to="LinuxSampler:midi_in_0"/>
+ <connection from="Hydrogen:Track_1_Kick (Tama Superstar 22&quot;)_Main_L" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_1_Kick (Tama Superstar 22&quot;)_Main_R" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_2_Tom Low (Tama Superstar 16&quot;)_Main_L" to="REAPER:in18"/>
+ <connection from="Hydrogen:Track_2_Tom Low (Tama Superstar 16&quot;)_Main_R" to="REAPER:in18"/>
+ <connection from="Hydrogen:Track_3_Tom Mid (Tama Superstar 13&quot;)_Main_L" to="REAPER:in19"/>
+ <connection from="Hydrogen:Track_3_Tom Mid (Tama Superstar 13&quot;)_Main_R" to="REAPER:in19"/>
+ <connection from="Hydrogen:Track_4_Tom High (Tama Superstar 12&quot;)_Main_L" to="REAPER:in20"/>
+ <connection from="Hydrogen:Track_4_Tom High (Tama Superstar 12&quot;)_Main_R" to="REAPER:in20"/>
+ <connection from="Hydrogen:Track_5_Snare (Pearl Free Floating Maple 14x3.5)_Main_L" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_5_Snare (Pearl Free Floating Maple 14x3.5)_Main_R" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_6_Snare Rimshot (Pearl Free Floating Maple 14x3.5)_Main_L" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_6_Snare Rimshot (Pearl Free Floating Maple 14x3.5)_Main_R" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_7_Snare 2 (Pearl Free Floating Maple 14x3.5)_Main_L" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_7_Snare 2 (Pearl Free Floating Maple 14x3.5)_Main_R" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_8_Snare 2 Rimshot (Pearl Free Floating Maple 14x3.5)_Main_L" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_8_Snare 2 Rimshot (Pearl Free Floating Maple 14x3.5)_Main_R" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_9_Rim Click (Pearl Free Floating Maple 14x3.5)_Main_L" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_9_Rim Click (Pearl Free Floating Maple 14x3.5)_Main_R" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_10_Hi-Hat Closed (Paiste Alpha Metal edge 14&quot;)_Main_L" to="REAPER:in22"/>
+ <connection from="Hydrogen:Track_10_Hi-Hat Closed (Paiste Alpha Metal edge 14&quot;)_Main_R" to="REAPER:in22"/>
+ <connection from="Hydrogen:Track_11_Hi-Hat Open (Paiste Alpha Metal edge 14&quot;)_Main_L" to="REAPER:in22"/>
+ <connection from="Hydrogen:Track_11_Hi-Hat Open (Paiste Alpha Metal edge 14&quot;)_Main_R" to="REAPER:in22"/>
+ <connection from="Hydrogen:Track_12_Hi-Hat Semiopen (Paiste Alpha Metal edge 14&quot;)_Main_L" to="REAPER:in22"/>
+ <connection from="Hydrogen:Track_12_Hi-Hat Semiopen (Paiste Alpha Metal edge 14&quot;)_Main_R" to="REAPER:in22"/>
+ <connection from="Hydrogen:Track_13_Hi-Hat Pedal (Paiste Alpha Metal edge 14&quot;)_Main_L" to="REAPER:in22"/>
+ <connection from="Hydrogen:Track_13_Hi-Hat Pedal (Paiste Alpha Metal edge 14&quot;)_Main_R" to="REAPER:in22"/>
+ <connection from="Hydrogen:Track_14_Ride (Custom, Zagrebin 22&quot;)_Main_L" to="REAPER:in23"/>
+ <connection from="Hydrogen:Track_14_Ride (Custom, Zagrebin 22&quot;)_Main_R" to="REAPER:in23"/>
+ <connection from="Hydrogen:Track_15_Ride Bell (Custom, Zagrebin 22&quot;)_Main_L" to="REAPER:in23"/>
+ <connection from="Hydrogen:Track_15_Ride Bell (Custom, Zagrebin 22&quot;)_Main_R" to="REAPER:in23"/>
+ <connection from="Hydrogen:Track_16_Ride Bow (Custom, Zagrebin 22&quot;)_Main_L" to="REAPER:in23"/>
+ <connection from="Hydrogen:Track_16_Ride Bow (Custom, Zagrebin 22&quot;)_Main_R" to="REAPER:in23"/>
+ <connection from="Hydrogen:Track_1_Kick_Main_L" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_1_Kick_Main_R" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_2_Snare_Main_L" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_2_Snare_Main_R" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_3_Snare flam_Main_L" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_3_Snare flam_Main_R" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_4_Snare side stick_Main_L" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_4_Snare side stick_Main_R" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_5_Snare roll_Main_L" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_5_Snare roll_Main_R" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_6_Snare rim shot_Main_L" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_6_Snare rim shot_Main_R" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_7_Snare drag_Main_L" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_7_Snare drag_Main_R" to="REAPER:in21"/>
+ <connection from="Hydrogen:Track_2_kick 3_Main_L" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_2_kick 3_Main_R" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_1_kick 2_Main_R" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_1_kick 2_Main_L" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_3_kick 4_Main_L" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_3_kick 4_Main_R" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_4_36kick_Main_L" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_4_36kick_Main_R" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_5_35bass_2_Main_L" to="REAPER:in17"/>
+ <connection from="Hydrogen:Track_5_35bass_2_Main_R" to="REAPER:in17"/>
+ <connection from="Polyphone:output L" to="REAPER:in18"/>
+ <connection from="Polyphone:output R" to="REAPER:in18"/>
+ <connection from="qmidiarp:out 1" to="a2j:Polyphone [131] (playback): RtMidi Input"/>
+</RAY-JACKPATCH>

@@ -1,0 +1,71 @@
+// Sfz exported from a sf2 file with Polyphone
+// Name      : soundfont
+// Author    : 
+// Copyright : 
+// Date      : 2020/01/04
+// Comment   : Merge soudfonts:  - ArabTurk.sf2  - Indian Ensemble  - World Instruments    - VK Instruments  
+
+<group>
+pitch_keycenter=72
+amplfo_freq=5.99903
+fillfo_freq=5.99903
+pitchlfo_freq=4.25177
+pitcheg_release=0.537747
+fileg_release=0.537747
+ampeg_sustain=0.001
+amp_velcurve_1=1
+amp_velcurve_127=1
+loop_mode=loop_continuous
+ampeg_attack=0.001
+fil_type=lpf_2p
+cutoff=19913
+
+<region>
+sample=samples\Side Stick.wav
+lokey=21 hikey=47
+ampeg_decay=3.57184
+ampeg_release=3.57184
+offset=0
+end=5603
+loop_start=4
+loop_end=5598
+
+<region>
+sample=samples\Side Stick.wav
+lokey=48 hikey=59
+ampeg_decay=2.82679
+ampeg_release=2.82679
+offset=0
+end=5603
+loop_start=4
+loop_end=5598
+
+<region>
+sample=samples\Side Stick.wav
+lokey=60 hikey=71
+ampeg_decay=2.23716
+ampeg_release=2.23716
+offset=0
+end=5603
+loop_start=4
+loop_end=5598
+
+<region>
+sample=samples\Side Stick.wav
+lokey=72 hikey=83
+ampeg_decay=1.3218
+ampeg_release=1.3218
+offset=0
+end=5603
+loop_start=4
+loop_end=5598
+
+<region>
+sample=samples\Side Stick.wav
+lokey=84 hikey=108
+ampeg_decay=0.655575
+ampeg_release=0.655575
+offset=0
+end=5603
+loop_start=4
+loop_end=5598

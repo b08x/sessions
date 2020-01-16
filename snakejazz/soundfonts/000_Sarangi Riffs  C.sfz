@@ -1,0 +1,104 @@
+// Sfz exported from a sf2 file with Polyphone
+// Name      : soundfont
+// Author    : 
+// Copyright : 
+// Date      : 2020/01/04
+// Comment   : Merge soudfonts:  - ArabTurk.sf2  - Indian Ensemble  - World Instruments    - VK Instruments  
+
+<group>
+pitchlfo_freq=4.25177
+ampeg_sustain=0.001
+ampeg_release=0.828362
+loop_mode=no_loop
+volume=0
+ampeg_attack=0.001
+amplfo_freq=8.176
+fillfo_freq=8.176
+fil_type=lpf_2p
+cutoff=19913
+
+<region>
+sample=samples\Sarangi Riff #1C.wav
+lokey=36 hikey=43
+pitch_keycenter=36
+fileg_depth=5668
+pitcheg_release=0.537747
+fileg_release=0.537747
+ampeg_decay=9.10504
+offset=0
+end=113693
+loop_start=0
+loop_end=113692
+
+<region>
+sample=samples\Sarangi Riff #2C.wav
+lokey=44 hikey=55
+pitch_keycenter=48
+fileg_depth=3534
+pitcheg_decay=1.73307
+fileg_decay=1.73307
+fileg_sustain=0
+pitcheg_sustain=0
+pitcheg_release=1.73307
+fileg_release=1.73307
+ampeg_hold=0.0590263
+ampeg_decay=6.04538
+loop_mode=loop_continuous
+offset=0
+end=52447
+loop_start=34509
+loop_end=52442
+
+<region>
+sample=samples\Sarangi Riff #3C.wav
+lokey=56 hikey=67
+pitch_keycenter=60
+fileg_depth=2534
+pitcheg_decay=2.61172
+fileg_decay=2.61172
+fileg_sustain=0
+pitcheg_sustain=0
+pitcheg_release=2.61172
+fileg_release=2.61172
+ampeg_decay=8.58905
+loop_mode=loop_continuous
+offset=0
+end=91057
+loop_start=76691
+loop_end=91052
+
+<region>
+sample=samples\Sarangi Riff #4C.wav
+lokey=68 hikey=79
+pitch_keycenter=72
+fileg_depth=2934
+pitcheg_decay=2.93494
+fileg_decay=2.93494
+fileg_sustain=0
+pitcheg_sustain=0
+pitcheg_release=2.93494
+fileg_release=2.93494
+ampeg_decay=10.2378
+loop_mode=loop_continuous
+offset=0
+end=86433
+loop_start=67213
+loop_end=86428
+
+<region>
+sample=samples\Sarangi Riff #5C.wav
+lokey=80 hikey=96
+pitch_keycenter=84
+fileg_depth=2400
+pitcheg_decay=2.93494
+fileg_decay=2.93494
+fileg_sustain=0
+pitcheg_sustain=0
+pitcheg_release=2.93494
+fileg_release=2.93494
+ampeg_decay=10.8528
+loop_mode=loop_continuous
+offset=0
+end=100736
+loop_start=78678
+loop_end=100731

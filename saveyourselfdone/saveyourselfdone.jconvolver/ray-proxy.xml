@@ -1,3 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE RAY-PROXY>
-<RAY-PROXY config_file="../../../library/reverbs/ambiverb/maeshowe.conf" executable="jconvolver" arguments="&quot;$CONFIG_FILE&quot;" save_signal="0" no_save_level="2" wait_window="0" stop_signal="15" VERSION="0.8.0"/>

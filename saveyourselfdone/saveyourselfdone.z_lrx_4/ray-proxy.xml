@@ -1,3 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE RAY-PROXY>
-<RAY-PROXY executable="zita-lrx" save_signal="0" wait_window="0" VERSION="0.8.0" stop_signal="15" config_file="zita_crossover_4band.zlrx" no_save_level="2" arguments="&quot;$CONFIG_FILE&quot;"/>

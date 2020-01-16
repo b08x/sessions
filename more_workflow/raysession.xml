@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE RAYSESSION>
+<RAYSESSION VERSION="0.8.0" name="more_workflow">
+ <Clients>
+  <client executable="ray-jackpatch" launched="1" icon="curve-connector" name="JACK Connexions" id="patch"/>
+  <client executable="zita-mu1" launched="1" icon="zita-mu1" name="zita-mu1" id="z_mu1"/>
+  <client label="Qsampler" executable="ray-proxy" launched="1" icon="qsampler" name="Ray Proxy" id="qsampler"/>
+  <client label="Hydrogen" executable="ray-proxy" launched="1" icon="h2-icon" name="Ray Proxy" id="hydrogen"/>
+  <client executable="ray-proxy" launched="1" icon="qmidiarp" name="Ray Proxy" id="qmidiarp"/>
+  <client executable="patchage" launched="1" icon="patchage" name="patchage" id="patchage"/>
+  <client executable="jack-keyboard" launched="1" icon="jack-keyboard" name="jack-keyboard" id="keyboard"/>
+ </Clients>
+ <RemovedClients/>
+ <Windows>
+  <window class="patchage.Patchage" name="Patchage" desktop="0"/>
+  <window class="ray-proxy.RaySession" name="Ray Proxy" desktop="0"/>
+  <window class="REAPER.REAPER" name="REAPER v6.02+dev1220 - EVALUATION LICENSE" desktop="0"/>
+  <window class="REAPER.REAPER" name="Mixer" desktop="0"/>
+  <window class="qsampler.Qsampler" name="snakejazz.lscp — Qsampler" desktop="0"/>
+  <window class="N/A" name="Element - default: Graph" desktop="1"/>
+  <window class="qsynth.Qsynth" name="Qsynth1 — Qsynth" desktop="0"/>
+  <window class="jalv.select.Jalv.select" name="LV2 plugs" desktop="0"/>
+  <window class="REAPER.REAPER" name="[unsaved project] - REAPER v6.02+dev1220 - EVALUATION LICENSE" desktop="0"/>
+  <window class="qmidiarp.qmidiarp" name="/home/b08x/studio/sessions/intro/snakejazz/snakejazz.qmidiarp/snakejazz.qmax - QMidiArp (0)" desktop="0"/>
+  <window class="N/A" name="Sitala - Untitled - Edited" desktop="0"/>
+  <window class="REAPER.REAPER" name="snakejazz [modified] - REAPER v6.02+dev1220 - EVALUATION LICENSE" desktop="0"/>
+  <window class="REAPER.REAPER" name="VST: EnergyVisualizer (IEM) (64ch) - Track 4 &quot;ambibus&quot; (folder) [5/5]" desktop="0"/>
+  <window class="REAPER.REAPER" name="VST: MultiEncoder (IEM) (64ch) - Track 4 &quot;ambibus&quot; (folder) [1/5]" desktop="0"/>
+  <window class="vmpk.Vmpk" name="Virtual MIDI Piano Keyboard" desktop="0"/>
+  <window class="petri-foo.Petri-foo" name="Petri-Foo" desktop="0"/>
+  <window class="jack-keyboard.Jack-keyboard" name="jack-keyboard" desktop="0"/>
+  <window class="qmidiarp.qmidiarp" name="/home/b08x/studio/sessions/snakejazz/snakejazz.qmidiarp/snakejazz.qmax - QMidiArp (0)" desktop="0"/>
+  <window class="REAPER.REAPER" name="VST: MultiEncoder (IEM) (64ch) - Track 6 &quot;ambibus&quot; (folder) [1/5]" desktop="0"/>
+  <window class="REAPER.REAPER" name="VST: FdnReverb (IEM) (64ch) - Track 6 &quot;ambibus&quot; (folder) [2/5]" desktop="0"/>
+  <window class="REAPER.REAPER" name="VST: EnergyVisualizer (IEM) (64ch) - Track 6 &quot;ambibus&quot; (folder) [5/5]" desktop="0"/>
+  <window class="REAPER.REAPER" name="snakejazz - REAPER v6.02+dev1220 - EVALUATION LICENSE" desktop="0"/>
+  <window class="REAPER.REAPER" name="FX: Track 5 &quot;speakers&quot;" desktop="0"/>
+  <window class="Non-Mixer.Non-Mixer" name="Non Mixer" desktop="0"/>
+  <window class="REAPER.REAPER" name="Track Wiring Diagram" desktop="0"/>
+  <window class="qsampler.Qsampler" name="Channel 11 — Qsampler" desktop="0"/>
+  <window class="qsampler.Qsampler" name="snakejazz.lscp * — Qsampler" desktop="0"/>
+  <window class="REAPER.REAPER" name="VSTi: tonespace (mucoder) - Track 7 &quot;helm&quot; [1/2]" desktop="0"/>
+  <window class="hydrogen.Hydrogen" name="Hydrogen 1.0.0-'c31a0af7' - snakejazz.h2song" desktop="0"/>
+  <window class="REAPER.REAPER" name="FX: Track 7 &quot;helm&quot;" desktop="0"/>
+  <window class="REAPER.REAPER" name="FX: Item &quot;08-hh_kit10-200111_1709.wav&quot;" desktop="0"/>
+  <window class="mixxx.Mixxx" name="Mixxx 2.2.0" desktop="0"/>
+  <window class="REAPER.REAPER" name="snakejazz - REAPER v6.03 - EVALUATION LICENSE" desktop="0"/>
+  <window class="REAPER.REAPER" name="snakejazz [modified] - REAPER v6.03 - EVALUATION LICENSE" desktop="0"/>
+  <window class="REAPER.REAPER" name="VST: EnergyVisualizer (IEM) (64ch) - Track 6 &quot;ambibus&quot; (folder) [7/7]" desktop="0"/>
+  <window class="REAPER.REAPER" name="VST: MultiEncoder (IEM) (64ch) - Track 6 &quot;ambibus&quot; (folder) [1/7]" desktop="0"/>
+  <window class="qsampler.Qsampler" name="more_workflow.lscp — Qsampler" desktop="0"/>
+  <window class="hydrogen.Hydrogen" name="Hydrogen 1.0.0-'c31a0af7' - more_workflow.h2song" desktop="0"/>
+  <window class="qmidiarp.qmidiarp" name="QMidiArp (0)" desktop="0"/>
+  <window class="qmidiarp.qmidiarp" name="Save arpeggiator" desktop="0"/>
+  <window class="qmidiarp.qmidiarp" name="/home/b08x/studio/sessions/more_workflow/more_workflow.qmidiarp/more_workflow.qmax - QMidiArp (0)" desktop="0"/>
+  <window class="hydrogen.Hydrogen" name="Hydrogen 1.0.0-'c31a0af7' - BriansBeatsFUNK" desktop="0"/>
+ </Windows>
+</RAYSESSION>

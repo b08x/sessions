@@ -13,8 +13,6 @@
  <connection to="REAPER:MIDI Input 1" from="a2j:VMPK Output [133] (capture): VMPK Output"/>
  <connection to="REAPER:in1" from="LinuxSampler:0"/>
  <connection to="LinuxSampler:midi_in_0" from="Euklid:lv2_midi_out"/>
- <connection to="system:playback_1" from="zita-mu1:mon_out2.L"/>
- <connection to="system:playback_2" from="zita-mu1:mon_out2.R"/>
  <connection to="REAPER:in2" from="LinuxSampler:1"/>
  <connection to="LinuxSampler:midi_in_0" from="a2j:VMPK Output [131] (capture): VMPK Output"/>
  <connection to="REAPER:in3" from="LinuxSampler:2"/>
@@ -29,15 +27,33 @@
  <connection to="REAPER:in11" from="LinuxSampler:10"/>
  <connection to="REAPER:in12" from="LinuxSampler:11"/>
  <connection to="REAPER:in13" from="LinuxSampler:12"/>
- <connection to="REAPER:in12" from="Hydrogen:out_L"/>
- <connection to="REAPER:in13" from="Hydrogen:out_R"/>
  <connection to="Petri-Foo:midi_input" from="jack-keyboard-01:midi_out"/>
  <connection to="headphones:playback_1" from="zita-mu1:mon_out2.L"/>
  <connection to="headphones:playback_2" from="zita-mu1:mon_out2.R"/>
- <connection to="zita-mu1:in_1.L" from="REAPER:out1"/>
- <connection to="zita-mu1:in_1.R" from="REAPER:out2"/>
  <connection to="REAPER:in15" from="Polyphone:output L"/>
  <connection to="REAPER:in16" from="Polyphone:output R"/>
- <connection to="REAPER:in15" from="PulseAudio JACK Sink:front-left"/>
- <connection to="REAPER:in16" from="PulseAudio JACK Sink:front-right"/>
+ <connection to="a2j:Midi Through [14] (playback): Midi Through Port-0" from="qmidiarp:out 2"/>
+ <connection to="REAPER:MIDI Input 1" from="qmidiarp:out 2"/>
+ <connection to="qmidiarp:in" from="a2j:VMPK Output [132] (capture): VMPK Output"/>
+ <connection to="qmidiarp:in" from="a2j:Midi Through [14] (capture): Midi Through Port-0"/>
+ <connection to="LinuxSampler:midi_in_0" from="a2j:Midi Through [14] (capture): Midi Through Port-0"/>
+ <connection to="REAPER:in14" from="LinuxSampler:13"/>
+ <connection to="REAPER:in15" from="LinuxSampler:14"/>
+ <connection to="REAPER:in16" from="LinuxSampler:15"/>
+ <connection to="REAPER:in17" from="Hydrogen:out_L"/>
+ <connection to="REAPER:in18" from="Hydrogen:out_R"/>
+ <connection to="Hydrogen-midi:RX" from="a2j:Midi Through [14] (capture): Midi Through Port-0"/>
+ <connection to="REAPER:in19" from="Mixxx:out_42"/>
+ <connection to="REAPER:in20" from="Mixxx:out_43"/>
+ <connection to="REAPER:in21" from="Mixxx:out_44"/>
+ <connection to="REAPER:in22" from="Mixxx:out_45"/>
+ <connection to="LinuxSampler:midi_in_0" from="REAPER:MIDI Output 1"/>
+ <connection to="headphones:playback_1" from="zita-mu1:mon_out1.L"/>
+ <connection to="headphones:playback_2" from="zita-mu1:mon_out1.R"/>
+ <connection to="zita-mu1:in_1.L" from="Polyphone:output L"/>
+ <connection to="zita-mu1:in_1.R" from="Polyphone:output R"/>
+ <connection to="zita-mu1:in_1.L" from="PulseAudio JACK Sink:front-left"/>
+ <connection to="zita-mu1:in_1.R" from="PulseAudio JACK Sink:front-right"/>
+ <connection to="REAPER:in23" from="usbmic:capture_1"/>
+ <connection to="Hydrogen-midi:RX" from="jack-keyboard:midi_out"/>
 </RAY-JACKPATCH>

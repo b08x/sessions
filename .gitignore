@@ -1,6 +1,5 @@
 **/*.ray-snapshots
 **/*.wav
 **/*.reapeaks
-**/*.ray-snapshots
 *.lock
 *.swp

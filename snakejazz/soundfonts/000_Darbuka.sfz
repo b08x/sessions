@@ -1,0 +1,245 @@
+// Sfz exported from a sf2 file with Polyphone
+// Name      : soundfont
+// Author    : 
+// Copyright : 
+// Date      : 2020/01/04
+// Comment   : Merge soudfonts:  - ArabTurk.sf2  - Indian Ensemble  - World Instruments    - VK Instruments  
+
+<group>
+loop_mode=no_loop
+amplfo_freq=5.03583
+fillfo_freq=5.03583
+ampeg_attack=0.001
+pitchlfo_freq=8.176
+fil_type=lpf_2p
+cutoff=19913
+
+<region>
+sample=samples\DUM A.wav
+lokey=60 hikey=60
+pitch_keycenter=60
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=1.1401
+ampeg_release=41.403
+pitch_keytrack=0
+offset=0
+end=20215
+loop_start=0
+loop_end=20226
+
+<region>
+sample=samples\TEK A 1.wav
+lokey=62 hikey=62
+pitch_keycenter=62
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=1.1401
+ampeg_release=41.403
+pitch_keytrack=0
+offset=0
+end=15425
+loop_start=0
+loop_end=15424
+
+<region>
+sample=samples\TEK A 2.wav
+lokey=64 hikey=64
+pitch_keycenter=64
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=0.0875247
+ampeg_release=36.61
+pitch_keytrack=0
+offset=0
+end=8829
+loop_start=100
+loop_end=8828
+
+<region>
+sample=samples\FiSKE A.wav
+lokey=65 hikey=65
+pitch_keycenter=65
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=1.1401
+ampeg_release=41.403
+pitch_keytrack=0
+offset=0
+end=5973
+loop_start=0
+loop_end=5972
+
+<region>
+sample=samples\KUCUK T.A..wav
+lokey=67 hikey=67
+pitch_keycenter=67
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=1.1401
+ampeg_release=0.400073
+pitch_keytrack=0
+offset=0
+end=19888
+loop_start=0
+loop_end=19887
+
+<region>
+sample=samples\KAPALI T. A.wav
+lokey=69 hikey=69
+pitch_keycenter=69
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=1.1401
+ampeg_release=41.403
+pitch_keytrack=0
+offset=0
+end=6178
+loop_start=0
+loop_end=6177
+
+<region>
+sample=samples\BUYUK T.A.wav
+lokey=71 hikey=71
+pitch_keycenter=71
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=1.1401
+ampeg_release=41.403
+pitch_keytrack=0
+offset=0
+end=19239
+loop_start=0
+loop_end=19238
+
+<region>
+sample=samples\DARBUKtuk1-R.wav
+lokey=72 hikey=72
+pitch_keycenter=72
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=55.7151
+ampeg_release=41.403
+transpose=19
+pitch_keytrack=0
+offset=0
+end=35475
+loop_start=0
+loop_end=35474
+
+<region>
+sample=samples\DARBUK tok-R.wav
+lokey=74 hikey=74
+pitch_keycenter=74
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=53.4147
+ampeg_release=41.403
+transpose=22
+pitch_keytrack=0
+offset=0
+end=19869
+loop_start=0
+loop_end=19868
+
+<region>
+sample=samples\DARBUK tak-R.wav
+lokey=76 hikey=76
+pitch_keycenter=76
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=55.7151
+ampeg_release=41.403
+transpose=23
+pitch_keytrack=0
+offset=0
+end=11844
+loop_start=0
+loop_end=11843
+
+<region>
+sample=samples\DARBUK tik-R.wav
+lokey=77 hikey=77
+pitch_keycenter=77
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=55.7151
+ampeg_release=41.403
+transpose=24
+pitch_keytrack=0
+offset=0
+end=18072
+loop_start=0
+loop_end=18071
+
+<region>
+sample=samples\DARBUKtek1-R.wav
+lokey=79 hikey=79
+pitch_keycenter=79
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=55.7151
+ampeg_release=41.403
+transpose=20
+pitch_keytrack=0
+offset=0
+end=29789
+loop_start=0
+loop_end=29788
+
+<region>
+sample=samples\AUFTAK A 2.wav
+lokey=81 hikey=81
+pitch_keycenter=81
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=3.0702
+ampeg_release=41.403
+pitch_keytrack=0
+offset=0
+end=22725
+loop_start=119
+loop_end=22724
+
+<region>
+sample=samples\AUFTAK A.wav
+lokey=83 hikey=83
+pitch_keycenter=83
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=1.1401
+ampeg_release=41.403
+pitch_keytrack=0
+offset=0
+end=13915
+loop_start=4
+loop_end=13914
+
+<region>
+sample=samples\TIRRR A.wav
+lokey=84 hikey=84
+pitch_keycenter=84
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=1.1401
+ampeg_release=1.17013
+loop_mode=loop_continuous
+pitch_keytrack=0
+offset=0
+end=184891
+loop_start=33190
+loop_end=184890
+
+<region>
+sample=samples\TIRRR A 2.wav
+lokey=86 hikey=86
+pitch_keycenter=86
+lovel=1 hivel=127
+ampeg_attack=0.0038995
+ampeg_decay=4.10059
+ampeg_release=0.239955
+pitch_keytrack=0
+offset=0
+end=56236
+loop_start=0
+loop_end=56235

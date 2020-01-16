@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE RAY-PROXY>
+<RAY-PROXY VERSION="0.8.0" arguments="-p 4 &quot;$CONFIG_FILE&quot;" save_signal="10" stop_signal="15" no_save_level="2" wait_window="0" executable="qmidiarp" config_file="$RAY_SESSION_NAME.qmax"/>

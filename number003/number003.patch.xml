@@ -1,5 +1,0 @@
-<RAY-JACKPATCH>
- <connection from="zita-mu1:mon_out1.L" to="system:playback_1"/>
- <connection from="zita-mu1:mon_out2.R" to="system:playback_2"/>
- <connection from="zita-mu1:mon_out1.L" to="system:playback_4"/>
-</RAY-JACKPATCH>

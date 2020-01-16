@@ -1,9 +1,0 @@
-{
-	Mixer_Strip 0x43 create :name "looper01" :width "narrow" :tab "signal" :color 1651524250 :gain_mode 0 :mute_mode 0 :group 0x9F :auto_input "" :manual_connection 0
-	Chain 0x44 create :strip 0x43 :tab "chain"
-	JACK_Module 0x45 create :parameter_values "0.000000:1.000000" :is_default 1 :chain 0x44 :active 1
-	AUX_Module 0x52 create :number 0 :parameter_values "0.000000" :is_default 0 :chain 0x44 :active 1
-	Gain_Module 0x46 create :parameter_values "-4.750000:0.000000" :is_default 1 :chain 0x44 :active 1
-	Meter_Module 0x47 create :is_default 1 :chain 0x44 :active 1
-	JACK_Module 0x48 create :parameter_values "1.000000:0.000000" :is_default 1 :chain 0x44 :active 1
-}
